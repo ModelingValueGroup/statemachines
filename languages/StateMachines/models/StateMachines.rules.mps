@@ -12,6 +12,7 @@
     <import index="r3ev" ref="r:6c9951b2-ec3f-4fdf-b9fb-2d213617d14b(StateMachines.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -32,6 +33,7 @@
       <concept id="949808489845274322" name="DclareMPS.structure.QuotedOperation" flags="ng" index="4NHco">
         <reference id="949808489845274334" name="quoted" index="4NHck" />
       </concept>
+      <concept id="2670187688574317603" name="DclareMPS.structure.AnythingLiteral" flags="ng" index="g6pQH" />
       <concept id="4122011871452503133" name="DclareMPS.structure.Method" flags="ig" index="kUGYC" />
       <concept id="7850177529460624300" name="DclareMPS.structure.SeverityOperation" flags="ng" index="2nG6lM" />
       <concept id="7850177529460547425" name="DclareMPS.structure.MessageOperation" flags="ng" index="2nNF6Z" />
@@ -1208,7 +1210,7 @@
           <node concept="2pIpSj" id="607SeqGVSz4" role="2pJxcM">
             <ref role="2pIpSl" to="kq7i:5lbwvqWKpAz" resolve="output" />
             <node concept="36biLy" id="607SeqGVSzV" role="28nt2d">
-              <node concept="10Nm6u" id="607SeqGVSzT" role="36biLW" />
+              <node concept="g6pQH" id="31sbKqyEG60" role="36biLW" />
             </node>
           </node>
         </node>
@@ -1217,7 +1219,7 @@
     <node concept="1FPxxo" id="5lbwvqXNu3C" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="v9KtuBq1EB">
-    <property role="3GE5qa" value="simulation.text" />
+    <property role="3GE5qa" value="simulation" />
     <ref role="311c5K" to="kq7i:1b89R_KwaUf" resolve="State" />
     <ref role="2RaPBF" node="v9KtuBq1EC" resolve="simulation" />
     <node concept="3tBE6w" id="v9KtuBCpcR" role="1FPzNG">
@@ -1281,7 +1283,7 @@
     <node concept="1FPxxo" id="v9KtuBwcxS" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="v9KtuBCwr1">
-    <property role="3GE5qa" value="simulation.text" />
+    <property role="3GE5qa" value="simulation" />
     <ref role="311c5K" to="kq7i:1b89R_Kwucb" resolve="Transition" />
     <ref role="2RaPBF" node="v9KtuBq1EC" resolve="simulation" />
     <node concept="3tBE6w" id="v9KtuBCwrb" role="1FPzNG">
@@ -1559,7 +1561,7 @@
           <node concept="2pIpSj" id="607SeqGVRQ5" role="2pJxcM">
             <ref role="2pIpSl" to="kq7i:5lbwvqWQNHj" resolve="output" />
             <node concept="36biLy" id="607SeqGVRRt" role="28nt2d">
-              <node concept="10Nm6u" id="607SeqGVS2j" role="36biLW" />
+              <node concept="g6pQH" id="31sbKqyEBSu" role="36biLW" />
             </node>
           </node>
         </node>
@@ -2317,7 +2319,7 @@
     <node concept="1FPxxo" id="7jNKFKruq7J" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="7jNKFKrySyT">
-    <property role="3GE5qa" value="tojava.text" />
+    <property role="3GE5qa" value="tojava" />
     <ref role="311c5K" to="kq7i:1b89R_Kwuc6" resolve="StateMachine" />
     <ref role="2RaPBF" node="5heHn8S5cu4" resolve="toJava" />
     <node concept="32q3_s" id="7jNKFKrySz3" role="1FPzNG">
@@ -2590,7 +2592,7 @@
     </node>
   </node>
   <node concept="311c5q" id="7jNKFKr$V26">
-    <property role="3GE5qa" value="tojava.text" />
+    <property role="3GE5qa" value="tojava" />
     <ref role="2RaPBF" node="5heHn8S5cu4" resolve="toJava" />
     <ref role="311c5K" to="kq7i:1b89R_KwaUf" resolve="State" />
     <node concept="32q3_s" id="J04UfUXvTS" role="1FPzNG">
@@ -2664,7 +2666,7 @@
     </node>
   </node>
   <node concept="311c5q" id="7jNKFKr$V2x">
-    <property role="3GE5qa" value="tojava.text" />
+    <property role="3GE5qa" value="tojava" />
     <ref role="311c5K" to="kq7i:25flf1JmxiG" resolve="Input" />
     <ref role="2RaPBF" node="5heHn8S5cu4" resolve="toJava" />
     <node concept="1FPxxo" id="J04UfUXqE9" role="1FPzNG" />
@@ -2676,6 +2678,7 @@
       <node concept="2c44tf" id="J04UfUXF4R" role="33vP2m">
         <node concept="QsSxf" id="J04UfUXF4S" role="2c44tc">
           <property role="TrG5h" value="STATE" />
+          <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
           <node concept="2EMmih" id="J04UfUXF4T" role="lGtFl">
             <property role="3qcH_f" value="true" />
             <property role="2qtEX9" value="name" />
@@ -2693,7 +2696,7 @@
     <node concept="1FPxxo" id="J04UfUXqEe" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="7jNKFKr$V2W">
-    <property role="3GE5qa" value="tojava.text" />
+    <property role="3GE5qa" value="tojava" />
     <ref role="311c5K" to="kq7i:5lbwvqWKj3R" resolve="Output" />
     <ref role="2RaPBF" node="5heHn8S5cu4" resolve="toJava" />
     <node concept="32q3_s" id="J04UfUXvhv" role="1FPzNG">
@@ -2704,6 +2707,7 @@
       <node concept="2c44tf" id="J04UfUXBhR" role="33vP2m">
         <node concept="QsSxf" id="J04UfUXBhS" role="2c44tc">
           <property role="TrG5h" value="STATE" />
+          <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
           <node concept="2EMmih" id="J04UfUXBhT" role="lGtFl">
             <property role="3qcH_f" value="true" />
             <property role="2qtEX9" value="name" />
@@ -2720,7 +2724,7 @@
     </node>
   </node>
   <node concept="311c5q" id="7jNKFKr$V3n">
-    <property role="3GE5qa" value="tojava.text" />
+    <property role="3GE5qa" value="tojava" />
     <ref role="311c5K" to="kq7i:1b89R_Kwucb" resolve="Transition" />
     <ref role="2RaPBF" node="5heHn8S5cu4" resolve="toJava" />
     <node concept="32q3_s" id="3mfFf4FI_YX" role="1FPzNG">
