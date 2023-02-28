@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="53d4" ref="r:0049729d-ba70-461b-8d8a-b0755e3bfabb(DclareGui.structure)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -370,6 +371,36 @@
       <property role="20kJfa" value="input" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="60Htx5it7J4" resolve="TableInput" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="31sbKqyPLBJ">
+    <property role="EcuMT" value="3484711917226236399" />
+    <property role="TrG5h" value="StateMachineDiagram" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="diagram" />
+    <ref role="1TJDcQ" to="53d4:31sbKqyPLDd" resolve="Diagram" />
+    <node concept="PrWs8" id="1J7fUUyEqLi" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1J7fUUyF1s0" role="1TKVEi">
+      <property role="IQ2ns" value="2001638578675521280" />
+      <property role="20kJfa" value="stateMachine" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1b89R_Kwuc6" resolve="StateMachine" />
+    </node>
+    <node concept="1irR5M" id="5x0Fo$UUtL$" role="rwd14">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irR9m" id="5x0Fo$UUtLD" role="1irR9h">
+        <node concept="3PKj8D" id="5x0Fo$UUtLE" role="3PKjn_">
+          <property role="3PKj8l" value="ffff99" />
+        </node>
+      </node>
+      <node concept="1irPie" id="5x0Fo$UUtLL" role="1irR9h">
+        <property role="1irPi9" value="D" />
+        <node concept="3PKj8D" id="5x0Fo$UUtLM" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

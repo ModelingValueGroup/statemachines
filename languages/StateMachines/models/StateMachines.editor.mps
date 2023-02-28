@@ -12,6 +12,7 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="r3ev" ref="r:6c9951b2-ec3f-4fdf-b9fb-2d213617d14b(StateMachines.behavior)" implicit="true" />
+    <import index="i5kw" ref="r:f72a0977-26ea-4451-94a1-65916d1e2877(DclareGui.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -897,6 +898,31 @@
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1J7fUUyFtMe">
+    <property role="3GE5qa" value="diagram" />
+    <ref role="1XX52x" to="kq7i:31sbKqyPLBJ" resolve="StateMachineDiagram" />
+    <node concept="3EZMnI" id="1J7fUUyFtMg" role="2wV5jI">
+      <node concept="2iRkQZ" id="1J7fUUyFtMh" role="2iSdaV" />
+      <node concept="3EZMnI" id="1J7fUUyFtMK" role="3EZMnx">
+        <node concept="2iRfu4" id="1J7fUUyFtML" role="2iSdaV" />
+        <node concept="3F0ifn" id="1J7fUUyFtN0" role="3EZMnx">
+          <property role="3F0ifm" value="diagram" />
+        </node>
+        <node concept="1iCGBv" id="1J7fUUyFtMz" role="3EZMnx">
+          <ref role="1NtTu8" to="kq7i:1J7fUUyF1s0" resolve="stateMachine" />
+          <node concept="1sVBvm" id="1J7fUUyFtM_" role="1sWHZn">
+            <node concept="3F0A7n" id="1J7fUUyFtMH" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="1J7fUUyFtMs" role="3EZMnx">
+        <ref role="PMmxG" to="i5kw:31sbKqyPMrZ" resolve="DiagramComponent" />
       </node>
     </node>
   </node>

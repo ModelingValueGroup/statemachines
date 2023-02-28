@@ -12,6 +12,7 @@
   </facets>
   <sourcePath />
   <languageVersions>
+    <language slang="l:ce36526d-d793-4b8b-88e9-d1815f616441:DclareGui" version="0" />
     <language slang="l:c840535e-4213-4a05-832f-5cc528f47f6e:StateMachines" version="3" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />

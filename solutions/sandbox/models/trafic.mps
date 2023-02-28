@@ -3,10 +3,14 @@
   <persistence version="9" />
   <languages>
     <use id="c840535e-4213-4a05-832f-5cc528f47f6e" name="StateMachines" version="3" />
+    <use id="ce36526d-d793-4b8b-88e9-d1815f616441" name="DclareGui" version="0" />
   </languages>
   <imports />
   <registry>
     <language id="c840535e-4213-4a05-832f-5cc528f47f6e" name="StateMachines">
+      <concept id="3484711917226236399" name="StateMachines.structure.StateMachineDiagram" flags="ng" index="2iyNrD">
+        <reference id="2001638578675521280" name="stateMachine" index="2TqMyI" />
+      </concept>
       <concept id="6930325218362948548" name="StateMachines.structure.TableInput" flags="ng" index="MmgRl" />
       <concept id="6930325218362948551" name="StateMachines.structure.TableOutput" flags="ng" index="MmgRm" />
       <concept id="6864088223273688403" name="StateMachines.structure.TableInputReference" flags="ng" index="10qrUc">
@@ -49,6 +53,20 @@
       </concept>
       <concept id="6146149013205889271" name="StateMachines.structure.Output" flags="ng" index="3DyF41" />
     </language>
+    <language id="ce36526d-d793-4b8b-88e9-d1815f616441" name="DclareGui">
+      <concept id="3484711917226236494" name="DclareGui.structure.NodeLayout" flags="ng" index="2iyNl8">
+        <property id="3484711917226236527" name="x" index="2iyNlD" />
+        <property id="3484711917226236529" name="y" index="2iyNlR" />
+        <reference id="3484711917226236495" name="node" index="2iyNl9" />
+        <child id="3484711917226236562" name="edges" index="2iyNmk" />
+      </concept>
+      <concept id="3484711917226236493" name="DclareGui.structure.Diagram" flags="ng" index="2iyNlb">
+        <child id="3484711917226236497" name="nodes" index="2iyNln" />
+      </concept>
+      <concept id="3484711917226236499" name="DclareGui.structure.EdgeLayout" flags="ng" index="2iyNll">
+        <reference id="3484711917226236500" name="association" index="2iyNli" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -57,9 +75,9 @@
   </registry>
   <node concept="1yishZ" id="7cBVUd6SvdM">
     <property role="TrG5h" value="TrafficLight" />
-    <ref role="2wiCVd" node="2cmYrTpHt_Q" resolve="goRed" />
-    <ref role="2wn6lj" node="2cmYrTpHtA4" resolve="timerStart" />
-    <ref role="2wn6mT" node="7cBVUd6Sve2" resolve="ORANGE" />
+    <ref role="2wiCVd" node="2cmYrTpHt_W" resolve="timerEnd" />
+    <ref role="2wn6lj" node="7FCg8KIXFUB" resolve="red" />
+    <ref role="2wn6mT" node="2cmYrTpHt_b" resolve="RED" />
     <node concept="1yishM" id="7FCg8KIXFUE" role="3CNqeR">
       <ref role="1yishP" node="7cBVUd6SvdO" resolve="GREEN" />
       <ref role="3Dyx$3" node="2cmYrTpHt_Q" resolve="goRed" />
@@ -177,6 +195,34 @@
       </node>
       <node concept="3DxqwS" id="2cmYrTpHt_l" role="3Dxq$R" />
       <node concept="3DxqwS" id="2cmYrTpHt_m" role="3Dxq$R" />
+    </node>
+  </node>
+  <node concept="2iyNrD" id="5x0Fo$UVPI5">
+    <property role="TrG5h" value="TrafficLightDiagram" />
+    <ref role="2TqMyI" node="7cBVUd6SvdM" resolve="TrafficLight" />
+    <node concept="2iyNl8" id="5x0Fo$UVPSL" role="2iyNln">
+      <property role="2iyNlD" value="80" />
+      <property role="2iyNlR" value="80" />
+      <ref role="2iyNl9" node="7cBVUd6SvdO" resolve="GREEN" />
+      <node concept="2iyNll" id="5x0Fo$UVPSU" role="2iyNmk">
+        <ref role="2iyNli" node="2cmYrTpHt_Q" resolve="goRed" />
+      </node>
+    </node>
+    <node concept="2iyNl8" id="5x0Fo$UVPSM" role="2iyNln">
+      <property role="2iyNlD" value="180" />
+      <property role="2iyNlR" value="340" />
+      <ref role="2iyNl9" node="7cBVUd6Sve2" resolve="ORANGE" />
+      <node concept="2iyNll" id="5x0Fo$UVPSS" role="2iyNmk">
+        <ref role="2iyNli" node="2cmYrTpHt_W" resolve="timerEnd" />
+      </node>
+    </node>
+    <node concept="2iyNl8" id="5x0Fo$UVPSN" role="2iyNln">
+      <property role="2iyNlD" value="420" />
+      <property role="2iyNlR" value="100" />
+      <ref role="2iyNl9" node="2cmYrTpHt_b" resolve="RED" />
+      <node concept="2iyNll" id="5x0Fo$UVPST" role="2iyNmk">
+        <ref role="2iyNli" node="7FCg8KIXFUu" resolve="goGreen" />
+      </node>
     </node>
   </node>
 </model>
