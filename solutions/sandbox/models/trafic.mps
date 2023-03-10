@@ -10,11 +10,19 @@
     <language id="c840535e-4213-4a05-832f-5cc528f47f6e" name="StateMachines">
       <concept id="3484711917226236399" name="StateMachines.structure.StateMachineDiagram" flags="ng" index="2iyNrD">
         <reference id="2001638578675521280" name="stateMachine" index="2TqMyI" />
+        <child id="1067378087504034822" name="transitionsInDiagram" index="GpEEL" />
+        <child id="1895489263926398132" name="statesInDiagram" index="11E6R5" />
+      </concept>
+      <concept id="1067378087504017064" name="StateMachines.structure.TransitionInDiagram" flags="ng" index="GpA0v">
+        <reference id="1067378087504017065" name="transition" index="GpA0u" />
       </concept>
       <concept id="6930325218362948548" name="StateMachines.structure.TableInput" flags="ng" index="MmgRl" />
       <concept id="6930325218362948551" name="StateMachines.structure.TableOutput" flags="ng" index="MmgRm" />
       <concept id="6864088223273688403" name="StateMachines.structure.TableInputReference" flags="ng" index="10qrUc">
         <reference id="6864088223273688404" name="input" index="10qrUb" />
+      </concept>
+      <concept id="1895489263926392614" name="StateMachines.structure.StateInDiagram" flags="ng" index="11E1pn">
+        <reference id="1895489263926392615" name="state" index="11E1pm" />
       </concept>
       <concept id="2400230518048822444" name="StateMachines.structure.Input" flags="ng" index="1e5k1s" />
       <concept id="1353375090556841615" name="StateMachines.structure.State" flags="ng" index="1yi8BQ">
@@ -197,32 +205,50 @@
       <node concept="3DxqwS" id="2cmYrTpHt_m" role="3Dxq$R" />
     </node>
   </node>
-  <node concept="2iyNrD" id="5x0Fo$UVPI5">
+  <node concept="2iyNrD" id="5nC4fNi1g_J">
     <property role="TrG5h" value="TrafficLightDiagram" />
     <ref role="2TqMyI" node="7cBVUd6SvdM" resolve="TrafficLight" />
-    <node concept="2iyNl8" id="5x0Fo$UVPSL" role="2iyNln">
-      <property role="2iyNlD" value="80" />
-      <property role="2iyNlR" value="80" />
+    <node concept="2iyNl8" id="5nC4fNi1g_Q" role="2iyNln">
+      <property role="2iyNlD" value="200" />
+      <property role="2iyNlR" value="360" />
       <ref role="2iyNl9" node="7cBVUd6SvdO" resolve="GREEN" />
-      <node concept="2iyNll" id="5x0Fo$UVPSU" role="2iyNmk">
+      <node concept="2iyNll" id="5nC4fNi1g_T" role="2iyNmk">
         <ref role="2iyNli" node="2cmYrTpHt_Q" resolve="goRed" />
       </node>
     </node>
-    <node concept="2iyNl8" id="5x0Fo$UVPSM" role="2iyNln">
-      <property role="2iyNlD" value="180" />
-      <property role="2iyNlR" value="340" />
+    <node concept="2iyNl8" id="5nC4fNi1g_R" role="2iyNln">
+      <property role="2iyNlD" value="120" />
+      <property role="2iyNlR" value="100" />
       <ref role="2iyNl9" node="7cBVUd6Sve2" resolve="ORANGE" />
-      <node concept="2iyNll" id="5x0Fo$UVPSS" role="2iyNmk">
+      <node concept="2iyNll" id="5nC4fNi1g_V" role="2iyNmk">
         <ref role="2iyNli" node="2cmYrTpHt_W" resolve="timerEnd" />
       </node>
     </node>
-    <node concept="2iyNl8" id="5x0Fo$UVPSN" role="2iyNln">
-      <property role="2iyNlD" value="420" />
-      <property role="2iyNlR" value="100" />
+    <node concept="2iyNl8" id="5nC4fNi1g_S" role="2iyNln">
+      <property role="2iyNlD" value="540" />
+      <property role="2iyNlR" value="200" />
       <ref role="2iyNl9" node="2cmYrTpHt_b" resolve="RED" />
-      <node concept="2iyNll" id="5x0Fo$UVPST" role="2iyNmk">
+      <node concept="2iyNll" id="5nC4fNi1g_U" role="2iyNmk">
         <ref role="2iyNli" node="7FCg8KIXFUu" resolve="goGreen" />
       </node>
+    </node>
+    <node concept="11E1pn" id="5nC4fNi1g_N" role="11E6R5">
+      <ref role="11E1pm" node="7cBVUd6SvdO" resolve="GREEN" />
+    </node>
+    <node concept="11E1pn" id="5nC4fNi1g_O" role="11E6R5">
+      <ref role="11E1pm" node="7cBVUd6Sve2" resolve="ORANGE" />
+    </node>
+    <node concept="11E1pn" id="5nC4fNi1g_P" role="11E6R5">
+      <ref role="11E1pm" node="2cmYrTpHt_b" resolve="RED" />
+    </node>
+    <node concept="GpA0v" id="5nC4fNi1g_K" role="GpEEL">
+      <ref role="GpA0u" node="7FCg8KIXFUE" />
+    </node>
+    <node concept="GpA0v" id="5nC4fNi1g_L" role="GpEEL">
+      <ref role="GpA0u" node="2cmYrTpHtAc" />
+    </node>
+    <node concept="GpA0v" id="5nC4fNi1g_M" role="GpEEL">
+      <ref role="GpA0u" node="7TiP68NnbKh" />
     </node>
   </node>
 </model>

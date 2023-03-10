@@ -379,6 +379,20 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="diagram" />
     <ref role="1TJDcQ" to="53d4:31sbKqyPLDd" resolve="Diagram" />
+    <node concept="1TJgyj" id="1De8n5rT$MO" role="1TKVEi">
+      <property role="IQ2ns" value="1895489263926398132" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="statesInDiagram" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1De8n5rTzsA" resolve="StateInDiagram" />
+    </node>
+    <node concept="1TJgyj" id="Vg5FsyHFK6" role="1TKVEi">
+      <property role="IQ2ns" value="1067378087504034822" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="transitionsInDiagram" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="Vg5FsyHBqC" resolve="TransitionInDiagram" />
+    </node>
     <node concept="PrWs8" id="1J7fUUyEqLi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -401,6 +415,30 @@
           <property role="3PKj8l" value="000000" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1De8n5rTzsA">
+    <property role="EcuMT" value="1895489263926392614" />
+    <property role="3GE5qa" value="diagram" />
+    <property role="TrG5h" value="StateInDiagram" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1De8n5rTzsB" role="1TKVEi">
+      <property role="IQ2ns" value="1895489263926392615" />
+      <property role="20kJfa" value="state" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1b89R_KwaUf" resolve="State" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Vg5FsyHBqC">
+    <property role="EcuMT" value="1067378087504017064" />
+    <property role="3GE5qa" value="diagram" />
+    <property role="TrG5h" value="TransitionInDiagram" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="Vg5FsyHBqD" role="1TKVEi">
+      <property role="IQ2ns" value="1067378087504017065" />
+      <property role="20kJfa" value="transition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1b89R_Kwucb" resolve="Transition" />
     </node>
   </node>
 </model>
