@@ -83,9 +83,9 @@
   </registry>
   <node concept="1yishZ" id="7cBVUd6SvdM">
     <property role="TrG5h" value="TrafficLight" />
-    <ref role="2wiCVd" node="2cmYrTpHt_W" resolve="timerEnd" />
     <ref role="2wn6lj" node="7FCg8KIXFUB" resolve="red" />
     <ref role="2wn6mT" node="2cmYrTpHt_b" resolve="RED" />
+    <ref role="2wiCVd" node="2cmYrTpHt_Q" resolve="goRed" />
     <node concept="1yishM" id="7FCg8KIXFUE" role="3CNqeR">
       <ref role="1yishP" node="7cBVUd6SvdO" resolve="GREEN" />
       <ref role="3Dyx$3" node="2cmYrTpHt_Q" resolve="goRed" />
@@ -205,49 +205,49 @@
       <node concept="3DxqwS" id="2cmYrTpHt_m" role="3Dxq$R" />
     </node>
   </node>
-  <node concept="2iyNrD" id="5nC4fNi1g_J">
+  <node concept="2iyNrD" id="5sMhwdtx6yT">
     <property role="TrG5h" value="TrafficLightDiagram" />
     <ref role="2TqMyI" node="7cBVUd6SvdM" resolve="TrafficLight" />
-    <node concept="2iyNl8" id="5nC4fNi1g_Q" role="2iyNln">
-      <property role="2iyNlD" value="200" />
-      <property role="2iyNlR" value="360" />
+    <node concept="2iyNl8" id="5sMhwdtx6z0" role="2iyNln">
+      <property role="2iyNlD" value="140" />
+      <property role="2iyNlR" value="120" />
       <ref role="2iyNl9" node="7cBVUd6SvdO" resolve="GREEN" />
-      <node concept="2iyNll" id="5nC4fNi1g_T" role="2iyNmk">
+      <node concept="2iyNll" id="5sMhwdtx6z3" role="2iyNmk">
         <ref role="2iyNli" node="2cmYrTpHt_Q" resolve="goRed" />
       </node>
     </node>
-    <node concept="2iyNl8" id="5nC4fNi1g_R" role="2iyNln">
-      <property role="2iyNlD" value="120" />
-      <property role="2iyNlR" value="100" />
+    <node concept="2iyNl8" id="5sMhwdtx6z1" role="2iyNln">
+      <property role="2iyNlD" value="140" />
+      <property role="2iyNlR" value="360" />
       <ref role="2iyNl9" node="7cBVUd6Sve2" resolve="ORANGE" />
-      <node concept="2iyNll" id="5nC4fNi1g_V" role="2iyNmk">
+      <node concept="2iyNll" id="5sMhwdtx6z5" role="2iyNmk">
         <ref role="2iyNli" node="2cmYrTpHt_W" resolve="timerEnd" />
       </node>
     </node>
-    <node concept="2iyNl8" id="5nC4fNi1g_S" role="2iyNln">
-      <property role="2iyNlD" value="540" />
-      <property role="2iyNlR" value="200" />
+    <node concept="2iyNl8" id="5sMhwdtx6z2" role="2iyNln">
+      <property role="2iyNlD" value="440" />
+      <property role="2iyNlR" value="160" />
       <ref role="2iyNl9" node="2cmYrTpHt_b" resolve="RED" />
-      <node concept="2iyNll" id="5nC4fNi1g_U" role="2iyNmk">
+      <node concept="2iyNll" id="5sMhwdtx6z4" role="2iyNmk">
         <ref role="2iyNli" node="7FCg8KIXFUu" resolve="goGreen" />
       </node>
     </node>
-    <node concept="11E1pn" id="5nC4fNi1g_N" role="11E6R5">
+    <node concept="11E1pn" id="5sMhwdtx6yX" role="11E6R5">
       <ref role="11E1pm" node="7cBVUd6SvdO" resolve="GREEN" />
     </node>
-    <node concept="11E1pn" id="5nC4fNi1g_O" role="11E6R5">
+    <node concept="11E1pn" id="5sMhwdtx6yY" role="11E6R5">
       <ref role="11E1pm" node="7cBVUd6Sve2" resolve="ORANGE" />
     </node>
-    <node concept="11E1pn" id="5nC4fNi1g_P" role="11E6R5">
+    <node concept="11E1pn" id="5sMhwdtx6yZ" role="11E6R5">
       <ref role="11E1pm" node="2cmYrTpHt_b" resolve="RED" />
     </node>
-    <node concept="GpA0v" id="5nC4fNi1g_K" role="GpEEL">
+    <node concept="GpA0v" id="5sMhwdtx6yU" role="GpEEL">
       <ref role="GpA0u" node="7FCg8KIXFUE" />
     </node>
-    <node concept="GpA0v" id="5nC4fNi1g_L" role="GpEEL">
+    <node concept="GpA0v" id="5sMhwdtx6yV" role="GpEEL">
       <ref role="GpA0u" node="2cmYrTpHtAc" />
     </node>
-    <node concept="GpA0v" id="5nC4fNi1g_M" role="GpEEL">
+    <node concept="GpA0v" id="5sMhwdtx6yW" role="GpEEL">
       <ref role="GpA0u" node="7TiP68NnbKh" />
     </node>
   </node>
