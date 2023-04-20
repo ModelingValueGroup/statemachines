@@ -17,7 +17,9 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
@@ -51,6 +53,7 @@
         <property id="1221209241505" name="value" index="1lJzqX" />
       </concept>
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
         <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
@@ -983,6 +986,33 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="6SQjciYcj7V" role="6VMZX">
+      <node concept="2iRkQZ" id="6SQjciYcj7W" role="2iSdaV" />
+      <node concept="3EZMnI" id="6SQjciYcj8I" role="3EZMnx">
+        <node concept="2iRfu4" id="6SQjciYcj8J" role="2iSdaV" />
+        <node concept="3F0ifn" id="6SQjciYcj8O" role="3EZMnx">
+          <property role="3F0ifm" value="off color #" />
+          <node concept="11LMrY" id="6SQjciYcj9_" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="6SQjciYcj8U" role="3EZMnx">
+          <ref role="1NtTu8" to="kq7i:6SQjciY8_sF" resolve="offColor" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6SQjciYcj9g" role="3EZMnx">
+        <node concept="2iRfu4" id="6SQjciYcj9h" role="2iSdaV" />
+        <node concept="3F0ifn" id="6SQjciYcj9i" role="3EZMnx">
+          <property role="3F0ifm" value="on color  #" />
+          <node concept="11LMrY" id="6SQjciYcj9B" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="6SQjciYcj9j" role="3EZMnx">
+          <ref role="1NtTu8" to="kq7i:6SQjciY8_sH" resolve="onColor" />
         </node>
       </node>
     </node>

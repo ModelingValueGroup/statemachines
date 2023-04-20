@@ -15,9 +15,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -115,402 +112,392 @@
       </concept>
     </language>
   </registry>
-  <node concept="312cEu" id="7jNKFKr$QSW">
-    <property role="IEkAT" value="false" />
+  <node concept="312cEu" id="2QXl8X60fS1">
     <property role="TrG5h" value="TrafficLight" />
-    <property role="1EXbeo" value="false" />
     <property role="1sVAO0" value="false" />
+    <property role="1EXbeo" value="false" />
     <property role="2bfB8j" value="false" />
     <property role="3n5e7y" value="false" />
     <property role="3AfOCB" value="false" />
-    <node concept="2tJIrI" id="J04UfV0aOp" role="jymVt" />
-    <node concept="Qs71p" id="J04UfV0aOq" role="jymVt">
-      <property role="IEkAT" value="false" />
+    <node concept="2tJIrI" id="2QXl8X60fS2" role="jymVt" />
+    <node concept="Qs71p" id="2QXl8X60fS3" role="jymVt">
       <property role="TrG5h" value="Input" />
       <property role="1sVAO0" value="false" />
       <property role="1EXbeo" value="false" />
       <property role="2bfB8j" value="false" />
       <property role="3n5e7y" value="false" />
       <property role="3AfOCB" value="false" />
-      <node concept="QsSxf" id="J04UfV0aOL" role="Qtgdg">
+      <node concept="QsSxf" id="2QXl8X60fT$" role="Qtgdg">
         <property role="TrG5h" value="goGreen" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="QsSxf" id="J04UfV0aOM" role="Qtgdg">
+      <node concept="QsSxf" id="2QXl8X60fT_" role="Qtgdg">
         <property role="TrG5h" value="goRed" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="QsSxf" id="J04UfV0aON" role="Qtgdg">
+      <node concept="QsSxf" id="2QXl8X60fTA" role="Qtgdg">
         <property role="TrG5h" value="timerEnd" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="3Tm1VV" id="J04UfV0aOO" role="1B3o_S" />
+      <node concept="3Tm1VV" id="2QXl8X60fTB" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="J04UfV0aOr" role="jymVt" />
-    <node concept="Qs71p" id="J04UfV0aOs" role="jymVt">
-      <property role="IEkAT" value="false" />
+    <node concept="2tJIrI" id="2QXl8X60fS4" role="jymVt" />
+    <node concept="Qs71p" id="2QXl8X60fS5" role="jymVt">
       <property role="TrG5h" value="Output" />
       <property role="1sVAO0" value="false" />
       <property role="1EXbeo" value="false" />
       <property role="2bfB8j" value="false" />
       <property role="3n5e7y" value="false" />
       <property role="3AfOCB" value="false" />
-      <node concept="QsSxf" id="J04UfV0aOH" role="Qtgdg">
+      <node concept="QsSxf" id="2QXl8X60fTC" role="Qtgdg">
         <property role="TrG5h" value="green" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="QsSxf" id="J04UfV0aOI" role="Qtgdg">
+      <node concept="QsSxf" id="2QXl8X60fTD" role="Qtgdg">
         <property role="TrG5h" value="red" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="QsSxf" id="J04UfV0aOJ" role="Qtgdg">
+      <node concept="QsSxf" id="2QXl8X60fTE" role="Qtgdg">
         <property role="TrG5h" value="timerStart" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
-      <node concept="3Tm1VV" id="J04UfV0aOK" role="1B3o_S" />
+      <node concept="3Tm1VV" id="2QXl8X60fTF" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="J04UfV0aOt" role="jymVt" />
-    <node concept="Qs71p" id="J04UfV0aOu" role="jymVt">
-      <property role="IEkAT" value="false" />
+    <node concept="2tJIrI" id="2QXl8X60fS6" role="jymVt" />
+    <node concept="Qs71p" id="2QXl8X60fS7" role="jymVt">
       <property role="TrG5h" value="State" />
       <property role="1sVAO0" value="false" />
       <property role="1EXbeo" value="false" />
       <property role="2bfB8j" value="false" />
       <property role="3n5e7y" value="false" />
       <property role="3AfOCB" value="false" />
-      <node concept="QsSxf" id="3mfFf4FIxpv" role="Qtgdg">
-        <property role="TrG5h" value="GREEN" />
-        <ref role="37wK5l" node="J04UfVmLFq" resolve="TrafficLight.State" />
-        <node concept="Rm8GO" id="3mfFf4FIxpH" role="37wK5m">
-          <ref role="Rm8GQ" node="J04UfV0aOH" resolve="green" />
-          <ref role="1Px2BO" node="J04UfV0aOs" resolve="TrafficLight.Output" />
-        </node>
-      </node>
-      <node concept="QsSxf" id="3mfFf4FIxpw" role="Qtgdg">
-        <property role="TrG5h" value="ORANGE" />
-        <ref role="37wK5l" node="J04UfVmLFq" resolve="TrafficLight.State" />
-        <node concept="Rm8GO" id="3mfFf4FIxpJ" role="37wK5m">
-          <ref role="Rm8GQ" node="J04UfV0aOJ" resolve="timerStart" />
-          <ref role="1Px2BO" node="J04UfV0aOs" resolve="TrafficLight.Output" />
-        </node>
-      </node>
-      <node concept="QsSxf" id="3mfFf4FIxpx" role="Qtgdg">
-        <property role="TrG5h" value="RED" />
-        <ref role="37wK5l" node="J04UfVmLFq" resolve="TrafficLight.State" />
-        <node concept="Rm8GO" id="3mfFf4FIxpI" role="37wK5m">
-          <ref role="Rm8GQ" node="J04UfV0aOI" resolve="red" />
-          <ref role="1Px2BO" node="J04UfV0aOs" resolve="TrafficLight.Output" />
-        </node>
-      </node>
-      <node concept="312cEg" id="J04UfVmFiN" role="jymVt">
-        <property role="IEkAT" value="false" />
+      <node concept="312cEg" id="2QXl8X60fSC" role="jymVt">
         <property role="TrG5h" value="output" />
         <property role="eg7rD" value="false" />
         <property role="34CwA1" value="false" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="J04UfVmFj5" role="1tU5fm">
-          <ref role="3uigEE" node="J04UfV0aOs" resolve="TrafficLight.Output" />
+        <node concept="3uibUv" id="2QXl8X60fTc" role="1tU5fm">
+          <ref role="3uigEE" node="2QXl8X60fS5" resolve="Output" />
         </node>
-        <node concept="3Tm6S6" id="J04UfVmFj6" role="1B3o_S" />
+        <node concept="3Tm6S6" id="2QXl8X60fTd" role="1B3o_S" />
       </node>
-      <node concept="2tJIrI" id="J04UfVmH7h" role="jymVt" />
-      <node concept="3clFbW" id="J04UfVmLFq" role="jymVt">
-        <property role="od$2w" value="false" />
-        <property role="IEkAT" value="false" />
+      <node concept="2tJIrI" id="2QXl8X60fSD" role="jymVt" />
+      <node concept="3clFbW" id="2QXl8X60fSE" role="jymVt">
         <property role="DiZV1" value="false" />
-        <node concept="37vLTG" id="3mfFf4FIxpz" role="3clF46">
+        <property role="od$2w" value="false" />
+        <node concept="37vLTG" id="2QXl8X60fSK" role="3clF46">
           <property role="TrG5h" value="output" />
           <property role="3TUv4t" value="false" />
-          <node concept="3uibUv" id="3mfFf4FIxpC" role="1tU5fm">
-            <ref role="3uigEE" node="J04UfV0aOs" resolve="TrafficLight.Output" />
+          <node concept="3uibUv" id="2QXl8X60fSM" role="1tU5fm">
+            <ref role="3uigEE" node="2QXl8X60fS5" resolve="Output" />
           </node>
         </node>
-        <node concept="3cqZAl" id="J04UfVmLFs" role="3clF45" />
-        <node concept="3clFbS" id="J04UfVmLFt" role="3clF47">
-          <node concept="3clFbF" id="4582acgTAsB" role="3cqZAp">
-            <node concept="37vLTI" id="4582acgTAsC" role="3clFbG">
-              <node concept="2OqwBi" id="4582acgTAsD" role="37vLTJ">
-                <node concept="2OwXpG" id="4582acgTAsF" role="2OqNvi">
-                  <ref role="2Oxat5" node="J04UfVmFiN" resolve="output" />
+        <node concept="3Tm6S6" id="2QXl8X60fSI" role="1B3o_S" />
+        <node concept="3clFbS" id="2QXl8X60fSJ" role="3clF47">
+          <node concept="3clFbF" id="2QXl8X60fSN" role="3cqZAp">
+            <node concept="37vLTI" id="2QXl8X60fSO" role="3clFbG">
+              <node concept="2OqwBi" id="2QXl8X60fSP" role="37vLTJ">
+                <node concept="Xjq3P" id="2QXl8X60fTW" role="2Oq$k0" />
+                <node concept="2OwXpG" id="2QXl8X60fTX" role="2OqNvi">
+                  <ref role="2Oxat5" node="2QXl8X60fSC" resolve="output" />
                 </node>
-                <node concept="Xjq3P" id="4582acgTAsG" role="2Oq$k0" />
               </node>
-              <node concept="37vLTw" id="4582acgTAsE" role="37vLTx">
-                <ref role="3cqZAo" node="3mfFf4FIxpz" resolve="output" />
+              <node concept="37vLTw" id="2QXl8X60fSQ" role="37vLTx">
+                <ref role="3cqZAo" node="2QXl8X60fSK" resolve="output" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3Tm6S6" id="3mfFf4FIxpy" role="1B3o_S" />
+        <node concept="3cqZAl" id="2QXl8X60fSL" role="3clF45" />
       </node>
-      <node concept="2tJIrI" id="J04UfVmFiQ" role="jymVt" />
-      <node concept="3clFb_" id="J04UfVmFiR" role="jymVt">
-        <property role="IEkAT" value="false" />
+      <node concept="2tJIrI" id="2QXl8X60fSF" role="jymVt" />
+      <node concept="3clFb_" id="2QXl8X60fSG" role="jymVt">
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
         <property role="TrG5h" value="getOutput" />
         <property role="1EzhhJ" value="false" />
         <property role="2aFKle" value="false" />
-        <node concept="3Tm1VV" id="J04UfVmFja" role="1B3o_S" />
-        <node concept="3clFbS" id="J04UfVmFjb" role="3clF47">
-          <node concept="3cpWs6" id="J04UfVmFjd" role="3cqZAp">
-            <node concept="2OqwBi" id="J04UfVmFje" role="3cqZAk">
-              <node concept="2OwXpG" id="J04UfVmFjf" role="2OqNvi">
-                <ref role="2Oxat5" node="J04UfVmFiN" resolve="output" />
+        <node concept="3Tm1VV" id="2QXl8X60fTP" role="1B3o_S" />
+        <node concept="3clFbS" id="2QXl8X60fTQ" role="3clF47">
+          <node concept="3cpWs6" id="2QXl8X60fTS" role="3cqZAp">
+            <node concept="2OqwBi" id="2QXl8X60fTT" role="3cqZAk">
+              <node concept="Xjq3P" id="2QXl8X60fTU" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2QXl8X60fTV" role="2OqNvi">
+                <ref role="2Oxat5" node="2QXl8X60fSC" resolve="output" />
               </node>
-              <node concept="Xjq3P" id="J04UfVmFjg" role="2Oq$k0" />
             </node>
           </node>
         </node>
-        <node concept="3uibUv" id="J04UfVmFjc" role="3clF45">
-          <ref role="3uigEE" node="J04UfV0aOs" resolve="TrafficLight.Output" />
+        <node concept="3uibUv" id="2QXl8X60fTR" role="3clF45">
+          <ref role="3uigEE" node="2QXl8X60fS5" resolve="Output" />
         </node>
       </node>
-      <node concept="3Tm1VV" id="J04UfV0aOS" role="1B3o_S" />
+      <node concept="QsSxf" id="2QXl8X60fS_" role="Qtgdg">
+        <property role="TrG5h" value="GREEN" />
+        <ref role="37wK5l" node="2QXl8X60fSE" resolve="State" />
+        <node concept="Rm8GO" id="2QXl8X60fTG" role="37wK5m">
+          <ref role="Rm8GQ" node="2QXl8X60fTC" resolve="green" />
+          <ref role="1Px2BO" node="2QXl8X60fS5" resolve="Output" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="2QXl8X60fSA" role="Qtgdg">
+        <property role="TrG5h" value="ORANGE" />
+        <ref role="37wK5l" node="2QXl8X60fSE" resolve="State" />
+        <node concept="Rm8GO" id="2QXl8X60fTH" role="37wK5m">
+          <ref role="Rm8GQ" node="2QXl8X60fTE" resolve="timerStart" />
+          <ref role="1Px2BO" node="2QXl8X60fS5" resolve="Output" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="2QXl8X60fSB" role="Qtgdg">
+        <property role="TrG5h" value="RED" />
+        <ref role="37wK5l" node="2QXl8X60fSE" resolve="State" />
+        <node concept="Rm8GO" id="2QXl8X60fTI" role="37wK5m">
+          <ref role="Rm8GQ" node="2QXl8X60fTD" resolve="red" />
+          <ref role="1Px2BO" node="2QXl8X60fS5" resolve="Output" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2QXl8X60fSH" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="J04UfV0aOv" role="jymVt" />
-    <node concept="312cEg" id="J04UfV0aOw" role="jymVt">
-      <property role="IEkAT" value="false" />
+    <node concept="2tJIrI" id="2QXl8X60fS8" role="jymVt" />
+    <node concept="312cEg" id="2QXl8X60fS9" role="jymVt">
       <property role="TrG5h" value="state" />
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <node concept="3Tm6S6" id="J04UfV0aOG" role="1B3o_S" />
-      <node concept="Rm8GO" id="3mfFf4FIxpG" role="33vP2m">
-        <ref role="Rm8GQ" node="3mfFf4FIxpv" resolve="GREEN" />
-        <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
+      <node concept="3uibUv" id="2QXl8X60fTe" role="1tU5fm">
+        <ref role="3uigEE" node="2QXl8X60fS7" resolve="State" />
       </node>
-      <node concept="3uibUv" id="1VJGSOS_4y9" role="1tU5fm">
-        <ref role="3uigEE" node="J04UfV0aOu" resolve="TrafficLight.State" />
+      <node concept="3Tm6S6" id="2QXl8X60fTf" role="1B3o_S" />
+      <node concept="Rm8GO" id="2QXl8X60fTg" role="33vP2m">
+        <ref role="Rm8GQ" node="2QXl8X60fS_" resolve="GREEN" />
+        <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
       </node>
     </node>
-    <node concept="2tJIrI" id="J04UfV0aOx" role="jymVt" />
-    <node concept="3clFb_" id="J04UfV0aOy" role="jymVt">
-      <property role="IEkAT" value="false" />
+    <node concept="2tJIrI" id="2QXl8X60fSa" role="jymVt" />
+    <node concept="3clFb_" id="2QXl8X60fSb" role="jymVt">
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="setInput" />
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <node concept="37vLTG" id="J04UfV0aOB" role="3clF46">
+      <node concept="37vLTG" id="2QXl8X60fSi" role="3clF46">
         <property role="TrG5h" value="input" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="J04UfV4bDj" role="1tU5fm">
-          <ref role="3uigEE" node="J04UfV0aOq" resolve="TrafficLight.Input" />
+        <node concept="3uibUv" id="2QXl8X60fS$" role="1tU5fm">
+          <ref role="3uigEE" node="2QXl8X60fS3" resolve="Input" />
         </node>
       </node>
-      <node concept="3Tm1VV" id="J04UfV0aOA" role="1B3o_S" />
-      <node concept="3clFbS" id="J04UfV0aOC" role="3clF47">
-        <node concept="3clFbJ" id="3mfFf4FP9Av" role="3cqZAp">
-          <property role="TyiWL" value="false" />
+      <node concept="3Tm1VV" id="2QXl8X60fSg" role="1B3o_S" />
+      <node concept="3clFbS" id="2QXl8X60fSh" role="3clF47">
+        <node concept="3clFbJ" id="2QXl8X60fSm" role="3cqZAp">
           <property role="TyiWK" value="false" />
-          <node concept="1Wc70l" id="3mfFf4FP9AA" role="3clFbw">
-            <node concept="3clFbC" id="3mfFf4FP9AC" role="3uHU7w">
-              <node concept="Rm8GO" id="3mfFf4FP9B5" role="3uHU7w">
-                <ref role="Rm8GQ" node="J04UfV0aOM" resolve="goRed" />
-                <ref role="1Px2BO" node="J04UfV0aOq" resolve="TrafficLight.Input" />
-              </node>
-              <node concept="37vLTw" id="3mfFf4FP9B6" role="3uHU7B">
-                <ref role="3cqZAo" node="J04UfV0aOB" resolve="input" />
+          <property role="TyiWL" value="false" />
+          <node concept="3clFbS" id="2QXl8X60fSs" role="3clFbx">
+            <node concept="3clFbF" id="2QXl8X60fSR" role="3cqZAp">
+              <node concept="37vLTI" id="2QXl8X60fST" role="3clFbG">
+                <node concept="2OqwBi" id="2QXl8X60fSU" role="37vLTJ">
+                  <node concept="Xjq3P" id="2QXl8X60fUc" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="2QXl8X60fUd" role="2OqNvi">
+                    <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
+                  </node>
+                </node>
+                <node concept="Rm8GO" id="2QXl8X60fSV" role="37vLTx">
+                  <ref role="Rm8GQ" node="2QXl8X60fS_" resolve="GREEN" />
+                  <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbC" id="3mfFf4FP9AD" role="3uHU7B">
-              <node concept="Rm8GO" id="3mfFf4FP9Bn" role="3uHU7w">
-                <ref role="Rm8GQ" node="3mfFf4FIxpv" resolve="GREEN" />
-                <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-              </node>
-              <node concept="2OqwBi" id="3mfFf4FP9Bo" role="3uHU7B">
-                <node concept="Xjq3P" id="3mfFf4FP9Bx" role="2Oq$k0" />
-                <node concept="2OwXpG" id="3mfFf4FP9By" role="2OqNvi">
-                  <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
+            <node concept="3cpWs6" id="2QXl8X60fSS" role="3cqZAp">
+              <node concept="2OqwBi" id="2QXl8X60fTx" role="3cqZAk">
+                <node concept="Rm8GO" id="2QXl8X60fTy" role="2Oq$k0">
+                  <ref role="Rm8GQ" node="2QXl8X60fS_" resolve="GREEN" />
+                  <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+                </node>
+                <node concept="liA8E" id="2QXl8X60fTz" role="2OqNvi">
+                  <ref role="37wK5l" node="2QXl8X60fSG" resolve="getOutput" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="3mfFf4FP9AB" role="3clFbx">
-            <node concept="3clFbF" id="3mfFf4FP9AR" role="3cqZAp">
-              <node concept="37vLTI" id="3mfFf4FP9AT" role="3clFbG">
-                <node concept="2OqwBi" id="3mfFf4FP9AU" role="37vLTJ">
-                  <node concept="Xjq3P" id="3mfFf4FP9Bz" role="2Oq$k0" />
-                  <node concept="2OwXpG" id="3mfFf4FP9B$" role="2OqNvi">
-                    <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
-                  </node>
-                </node>
-                <node concept="Rm8GO" id="3mfFf4FP9AV" role="37vLTx">
-                  <ref role="Rm8GQ" node="3mfFf4FIxpw" resolve="ORANGE" />
-                  <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-                </node>
+          <node concept="1Wc70l" id="2QXl8X60fSt" role="3clFbw">
+            <node concept="3clFbC" id="2QXl8X60fSu" role="3uHU7w">
+              <node concept="Rm8GO" id="2QXl8X60fT6" role="3uHU7w">
+                <ref role="Rm8GQ" node="2QXl8X60fT$" resolve="goGreen" />
+                <ref role="1Px2BO" node="2QXl8X60fS3" resolve="Input" />
+              </node>
+              <node concept="37vLTw" id="2QXl8X60fT7" role="3uHU7B">
+                <ref role="3cqZAo" node="2QXl8X60fSi" resolve="input" />
               </node>
             </node>
-            <node concept="3cpWs6" id="3mfFf4FP9AS" role="3cqZAp">
-              <node concept="2OqwBi" id="3mfFf4FP9Ba" role="3cqZAk">
-                <node concept="Rm8GO" id="3mfFf4FP9Bb" role="2Oq$k0">
-                  <ref role="Rm8GQ" node="3mfFf4FIxpw" resolve="ORANGE" />
-                  <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-                </node>
-                <node concept="liA8E" id="3mfFf4FP9Bc" role="2OqNvi">
-                  <ref role="37wK5l" node="J04UfVmFiR" resolve="getOutput" />
+            <node concept="3clFbC" id="2QXl8X60fSv" role="3uHU7B">
+              <node concept="Rm8GO" id="2QXl8X60fTJ" role="3uHU7w">
+                <ref role="Rm8GQ" node="2QXl8X60fSB" resolve="RED" />
+                <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+              </node>
+              <node concept="2OqwBi" id="2QXl8X60fTK" role="3uHU7B">
+                <node concept="Xjq3P" id="2QXl8X60fTY" role="2Oq$k0" />
+                <node concept="2OwXpG" id="2QXl8X60fTZ" role="2OqNvi">
+                  <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="3mfFf4FP9Aw" role="3cqZAp">
-          <property role="TyiWL" value="false" />
+        <node concept="3clFbJ" id="2QXl8X60fSl" role="3cqZAp">
           <property role="TyiWK" value="false" />
-          <node concept="1Wc70l" id="3mfFf4FP9AE" role="3clFbw">
-            <node concept="3clFbC" id="3mfFf4FP9AG" role="3uHU7w">
-              <node concept="Rm8GO" id="3mfFf4FP9B3" role="3uHU7w">
-                <ref role="Rm8GQ" node="J04UfV0aON" resolve="timerEnd" />
-                <ref role="1Px2BO" node="J04UfV0aOq" resolve="TrafficLight.Input" />
-              </node>
-              <node concept="37vLTw" id="3mfFf4FP9B4" role="3uHU7B">
-                <ref role="3cqZAo" node="J04UfV0aOB" resolve="input" />
+          <property role="TyiWL" value="false" />
+          <node concept="3clFbS" id="2QXl8X60fSw" role="3clFbx">
+            <node concept="3clFbF" id="2QXl8X60fT1" role="3cqZAp">
+              <node concept="37vLTI" id="2QXl8X60fT3" role="3clFbG">
+                <node concept="2OqwBi" id="2QXl8X60fT4" role="37vLTJ">
+                  <node concept="Xjq3P" id="2QXl8X60fU8" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="2QXl8X60fU9" role="2OqNvi">
+                    <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
+                  </node>
+                </node>
+                <node concept="Rm8GO" id="2QXl8X60fT5" role="37vLTx">
+                  <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+                  <ref role="Rm8GQ" node="2QXl8X60fSB" resolve="RED" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbC" id="3mfFf4FP9AH" role="3uHU7B">
-              <node concept="Rm8GO" id="3mfFf4FP9Bl" role="3uHU7w">
-                <ref role="Rm8GQ" node="3mfFf4FIxpw" resolve="ORANGE" />
-                <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-              </node>
-              <node concept="2OqwBi" id="3mfFf4FP9Bm" role="3uHU7B">
-                <node concept="Xjq3P" id="3mfFf4FP9Bv" role="2Oq$k0" />
-                <node concept="2OwXpG" id="3mfFf4FP9Bw" role="2OqNvi">
-                  <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
+            <node concept="3cpWs6" id="2QXl8X60fT2" role="3cqZAp">
+              <node concept="2OqwBi" id="2QXl8X60fTr" role="3cqZAk">
+                <node concept="Rm8GO" id="2QXl8X60fTs" role="2Oq$k0">
+                  <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+                  <ref role="Rm8GQ" node="2QXl8X60fSB" resolve="RED" />
+                </node>
+                <node concept="liA8E" id="2QXl8X60fTt" role="2OqNvi">
+                  <ref role="37wK5l" node="2QXl8X60fSG" resolve="getOutput" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="3mfFf4FP9AF" role="3clFbx">
-            <node concept="3clFbF" id="3mfFf4FP9AY" role="3cqZAp">
-              <node concept="37vLTI" id="3mfFf4FP9B0" role="3clFbG">
-                <node concept="2OqwBi" id="3mfFf4FP9B1" role="37vLTJ">
-                  <node concept="Xjq3P" id="3mfFf4FP9B_" role="2Oq$k0" />
-                  <node concept="2OwXpG" id="3mfFf4FP9BA" role="2OqNvi">
-                    <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
-                  </node>
-                </node>
-                <node concept="Rm8GO" id="3mfFf4FP9B2" role="37vLTx">
-                  <ref role="Rm8GQ" node="3mfFf4FIxpx" resolve="RED" />
-                  <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-                </node>
+          <node concept="1Wc70l" id="2QXl8X60fSx" role="3clFbw">
+            <node concept="3clFbC" id="2QXl8X60fSy" role="3uHU7w">
+              <node concept="Rm8GO" id="2QXl8X60fTa" role="3uHU7w">
+                <ref role="Rm8GQ" node="2QXl8X60fTA" resolve="timerEnd" />
+                <ref role="1Px2BO" node="2QXl8X60fS3" resolve="Input" />
+              </node>
+              <node concept="37vLTw" id="2QXl8X60fTb" role="3uHU7B">
+                <ref role="3cqZAo" node="2QXl8X60fSi" resolve="input" />
               </node>
             </node>
-            <node concept="3cpWs6" id="3mfFf4FP9AZ" role="3cqZAp">
-              <node concept="2OqwBi" id="3mfFf4FP9Bd" role="3cqZAk">
-                <node concept="Rm8GO" id="3mfFf4FP9Be" role="2Oq$k0">
-                  <ref role="Rm8GQ" node="3mfFf4FIxpx" resolve="RED" />
-                  <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-                </node>
-                <node concept="liA8E" id="3mfFf4FP9Bf" role="2OqNvi">
-                  <ref role="37wK5l" node="J04UfVmFiR" resolve="getOutput" />
+            <node concept="3clFbC" id="2QXl8X60fSz" role="3uHU7B">
+              <node concept="Rm8GO" id="2QXl8X60fTN" role="3uHU7w">
+                <ref role="Rm8GQ" node="2QXl8X60fSA" resolve="ORANGE" />
+                <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+              </node>
+              <node concept="2OqwBi" id="2QXl8X60fTO" role="3uHU7B">
+                <node concept="Xjq3P" id="2QXl8X60fU2" role="2Oq$k0" />
+                <node concept="2OwXpG" id="2QXl8X60fU3" role="2OqNvi">
+                  <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="3mfFf4FP9Ax" role="3cqZAp">
-          <property role="TyiWL" value="false" />
+        <node concept="3clFbJ" id="2QXl8X60fSk" role="3cqZAp">
           <property role="TyiWK" value="false" />
-          <node concept="1Wc70l" id="3mfFf4FP9Ay" role="3clFbw">
-            <node concept="3clFbC" id="3mfFf4FP9A$" role="3uHU7w">
-              <node concept="Rm8GO" id="3mfFf4FP9AW" role="3uHU7w">
-                <ref role="Rm8GQ" node="J04UfV0aOL" resolve="goGreen" />
-                <ref role="1Px2BO" node="J04UfV0aOq" resolve="TrafficLight.Input" />
-              </node>
-              <node concept="37vLTw" id="3mfFf4FP9AX" role="3uHU7B">
-                <ref role="3cqZAo" node="J04UfV0aOB" resolve="input" />
+          <property role="TyiWL" value="false" />
+          <node concept="3clFbS" id="2QXl8X60fSo" role="3clFbx">
+            <node concept="3clFbF" id="2QXl8X60fSW" role="3cqZAp">
+              <node concept="37vLTI" id="2QXl8X60fSY" role="3clFbG">
+                <node concept="2OqwBi" id="2QXl8X60fSZ" role="37vLTJ">
+                  <node concept="Xjq3P" id="2QXl8X60fUa" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="2QXl8X60fUb" role="2OqNvi">
+                    <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
+                  </node>
+                </node>
+                <node concept="Rm8GO" id="2QXl8X60fT0" role="37vLTx">
+                  <ref role="Rm8GQ" node="2QXl8X60fSA" resolve="ORANGE" />
+                  <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbC" id="3mfFf4FP9A_" role="3uHU7B">
-              <node concept="Rm8GO" id="3mfFf4FP9Bj" role="3uHU7w">
-                <ref role="Rm8GQ" node="3mfFf4FIxpx" resolve="RED" />
-                <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-              </node>
-              <node concept="2OqwBi" id="3mfFf4FP9Bk" role="3uHU7B">
-                <node concept="Xjq3P" id="3mfFf4FP9Bt" role="2Oq$k0" />
-                <node concept="2OwXpG" id="3mfFf4FP9Bu" role="2OqNvi">
-                  <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
+            <node concept="3cpWs6" id="2QXl8X60fSX" role="3cqZAp">
+              <node concept="2OqwBi" id="2QXl8X60fTu" role="3cqZAk">
+                <node concept="Rm8GO" id="2QXl8X60fTv" role="2Oq$k0">
+                  <ref role="Rm8GQ" node="2QXl8X60fSA" resolve="ORANGE" />
+                  <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+                </node>
+                <node concept="liA8E" id="2QXl8X60fTw" role="2OqNvi">
+                  <ref role="37wK5l" node="2QXl8X60fSG" resolve="getOutput" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="3mfFf4FP9Az" role="3clFbx">
-            <node concept="3clFbF" id="3mfFf4FP9AM" role="3cqZAp">
-              <node concept="37vLTI" id="3mfFf4FP9AO" role="3clFbG">
-                <node concept="2OqwBi" id="3mfFf4FP9AP" role="37vLTJ">
-                  <node concept="Xjq3P" id="3mfFf4FP9BB" role="2Oq$k0" />
-                  <node concept="2OwXpG" id="3mfFf4FP9BC" role="2OqNvi">
-                    <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
-                  </node>
-                </node>
-                <node concept="Rm8GO" id="3mfFf4FP9AQ" role="37vLTx">
-                  <ref role="Rm8GQ" node="3mfFf4FIxpv" resolve="GREEN" />
-                  <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-                </node>
+          <node concept="1Wc70l" id="2QXl8X60fSp" role="3clFbw">
+            <node concept="3clFbC" id="2QXl8X60fSq" role="3uHU7w">
+              <node concept="Rm8GO" id="2QXl8X60fT8" role="3uHU7w">
+                <ref role="Rm8GQ" node="2QXl8X60fT_" resolve="goRed" />
+                <ref role="1Px2BO" node="2QXl8X60fS3" resolve="Input" />
+              </node>
+              <node concept="37vLTw" id="2QXl8X60fT9" role="3uHU7B">
+                <ref role="3cqZAo" node="2QXl8X60fSi" resolve="input" />
               </node>
             </node>
-            <node concept="3cpWs6" id="3mfFf4FP9AN" role="3cqZAp">
-              <node concept="2OqwBi" id="3mfFf4FP9Bg" role="3cqZAk">
-                <node concept="Rm8GO" id="3mfFf4FP9Bh" role="2Oq$k0">
-                  <ref role="Rm8GQ" node="3mfFf4FIxpv" resolve="GREEN" />
-                  <ref role="1Px2BO" node="J04UfV0aOu" resolve="TrafficLight.State" />
-                </node>
-                <node concept="liA8E" id="3mfFf4FP9Bi" role="2OqNvi">
-                  <ref role="37wK5l" node="J04UfVmFiR" resolve="getOutput" />
+            <node concept="3clFbC" id="2QXl8X60fSr" role="3uHU7B">
+              <node concept="Rm8GO" id="2QXl8X60fTL" role="3uHU7w">
+                <ref role="Rm8GQ" node="2QXl8X60fS_" resolve="GREEN" />
+                <ref role="1Px2BO" node="2QXl8X60fS7" resolve="State" />
+              </node>
+              <node concept="2OqwBi" id="2QXl8X60fTM" role="3uHU7B">
+                <node concept="Xjq3P" id="2QXl8X60fU0" role="2Oq$k0" />
+                <node concept="2OwXpG" id="2QXl8X60fU1" role="2OqNvi">
+                  <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="3mfFf4FRnRt" role="3cqZAp">
-          <node concept="2OqwBi" id="3mfFf4FRnRu" role="3cqZAk">
-            <node concept="2OqwBi" id="3mfFf4FRnRv" role="2Oq$k0">
-              <node concept="Xjq3P" id="3mfFf4FRnRz" role="2Oq$k0" />
-              <node concept="2OwXpG" id="3mfFf4FRnR$" role="2OqNvi">
-                <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
+        <node concept="3cpWs6" id="2QXl8X60fSn" role="3cqZAp">
+          <node concept="2OqwBi" id="2QXl8X60fTh" role="3cqZAk">
+            <node concept="2OqwBi" id="2QXl8X60fTi" role="2Oq$k0">
+              <node concept="Xjq3P" id="2QXl8X60fU4" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2QXl8X60fU5" role="2OqNvi">
+                <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
               </node>
             </node>
-            <node concept="liA8E" id="3mfFf4FRnRw" role="2OqNvi">
-              <ref role="37wK5l" node="J04UfVmFiR" resolve="getOutput" />
+            <node concept="liA8E" id="2QXl8X60fTj" role="2OqNvi">
+              <ref role="37wK5l" node="2QXl8X60fSG" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3uibUv" id="3mfFf4FP9Au" role="3clF45">
-        <ref role="3uigEE" node="J04UfV0aOs" resolve="TrafficLight.Output" />
+      <node concept="3uibUv" id="2QXl8X60fSj" role="3clF45">
+        <ref role="3uigEE" node="2QXl8X60fS5" resolve="Output" />
       </node>
     </node>
-    <node concept="2tJIrI" id="J04UfV0aOz" role="jymVt" />
-    <node concept="3clFb_" id="J04UfV0aO$" role="jymVt">
-      <property role="IEkAT" value="false" />
+    <node concept="2tJIrI" id="2QXl8X60fSc" role="jymVt" />
+    <node concept="3clFb_" id="2QXl8X60fSd" role="jymVt">
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="getOutput" />
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <node concept="3Tm1VV" id="J04UfV0aOT" role="1B3o_S" />
-      <node concept="3clFbS" id="J04UfV0aOU" role="3clF47">
-        <node concept="3cpWs6" id="J04UfVmFj0" role="3cqZAp">
-          <node concept="2OqwBi" id="3mfFf4FP9B7" role="3cqZAk">
-            <node concept="2OqwBi" id="3mfFf4FP9B8" role="2Oq$k0">
-              <node concept="Xjq3P" id="3mfFf4FP9Bp" role="2Oq$k0" />
-              <node concept="2OwXpG" id="3mfFf4FP9Bq" role="2OqNvi">
-                <ref role="2Oxat5" node="J04UfV0aOw" resolve="state" />
+      <node concept="3Tm1VV" id="2QXl8X60fTk" role="1B3o_S" />
+      <node concept="3clFbS" id="2QXl8X60fTl" role="3clF47">
+        <node concept="3cpWs6" id="2QXl8X60fTn" role="3cqZAp">
+          <node concept="2OqwBi" id="2QXl8X60fTo" role="3cqZAk">
+            <node concept="2OqwBi" id="2QXl8X60fTp" role="2Oq$k0">
+              <node concept="Xjq3P" id="2QXl8X60fU6" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2QXl8X60fU7" role="2OqNvi">
+                <ref role="2Oxat5" node="2QXl8X60fS9" resolve="state" />
               </node>
             </node>
-            <node concept="liA8E" id="3mfFf4FP9B9" role="2OqNvi">
-              <ref role="37wK5l" node="J04UfVmFiR" resolve="getOutput" />
+            <node concept="liA8E" id="2QXl8X60fTq" role="2OqNvi">
+              <ref role="37wK5l" node="2QXl8X60fSG" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3uibUv" id="J04UfV4bDm" role="3clF45">
-        <ref role="3uigEE" node="J04UfV0aOs" resolve="TrafficLight.Output" />
+      <node concept="3uibUv" id="2QXl8X60fTm" role="3clF45">
+        <ref role="3uigEE" node="2QXl8X60fS5" resolve="Output" />
       </node>
     </node>
-    <node concept="2tJIrI" id="1VJGSOSjlVr" role="jymVt" />
-    <node concept="3Tm1VV" id="7jNKFKr$QSX" role="1B3o_S" />
+    <node concept="2tJIrI" id="2QXl8X60fSe" role="jymVt" />
+    <node concept="3Tm1VV" id="2QXl8X60fSf" role="1B3o_S" />
   </node>
 </model>
 
