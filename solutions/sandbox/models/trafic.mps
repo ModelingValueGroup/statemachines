@@ -25,6 +25,8 @@
         <reference id="6864088223273688404" name="input" index="10qrUb" />
       </concept>
       <concept id="1895489263926392614" name="StateMachines.structure.DiagramState" flags="ng" index="11E1pn">
+        <property id="7941619400801670957" name="onColor" index="3g51JD" />
+        <property id="7941619400801670955" name="offColor" index="3g51JJ" />
         <reference id="5371241502455285230" name="output" index="1Q9bTu" />
       </concept>
       <concept id="2400230518048822444" name="StateMachines.structure.Input" flags="ng" index="1e5k1s" />
@@ -101,15 +103,15 @@
       <ref role="1yishP" node="k2QQ_F_qWH" resolve="RED" />
       <ref role="3Dyx$3" node="2ne$wxslcq_" resolve="goGreen" />
     </node>
-    <node concept="1yishM" id="2ne$wxspjpC" role="3CNqeR">
-      <ref role="1yishR" node="k2QQ_F_qWH" resolve="RED" />
-      <ref role="1yishP" node="2ne$wxslmJ7" resolve="ORANGE" />
-      <ref role="3Dyx$3" node="2ne$wxslfM1" resolve="timerEnd" />
-    </node>
     <node concept="1yishM" id="2ne$wxspgdW" role="3CNqeR">
       <ref role="1yishR" node="2ne$wxslmJ7" resolve="ORANGE" />
       <ref role="1yishP" node="2ne$wxsln2y" resolve="GREEN" />
       <ref role="3Dyx$3" node="2ne$wxsleje" resolve="goRed" />
+    </node>
+    <node concept="1yishM" id="2ne$wxspjpC" role="3CNqeR">
+      <ref role="1yishR" node="k2QQ_F_qWH" resolve="RED" />
+      <ref role="1yishP" node="2ne$wxslmJ7" resolve="ORANGE" />
+      <ref role="3Dyx$3" node="2ne$wxslfM1" resolve="timerEnd" />
     </node>
     <node concept="3DyF41" id="2ne$wxsli6t" role="3CNqff">
       <property role="TrG5h" value="green" />
@@ -222,15 +224,15 @@
       <ref role="1QcQej" node="2ne$wxsln2u" resolve="GREEN" />
       <ref role="1Q9bmw" node="2ne$wxslcqx" resolve="goGreen" />
     </node>
-    <node concept="GpA0v" id="2ne$wxspjp$" role="GpEEL">
-      <ref role="1QcQem" node="2ne$wxslmJ3" resolve="ORANGE" />
-      <ref role="1QcQej" node="k2QQ_FCRBG" resolve="RED" />
-      <ref role="1Q9bmw" node="2ne$wxslfLW" resolve="timerEnd" />
-    </node>
     <node concept="GpA0v" id="2ne$wxspgdL" role="GpEEL">
       <ref role="1QcQem" node="2ne$wxsln2u" resolve="GREEN" />
       <ref role="1QcQej" node="2ne$wxslmJ3" resolve="ORANGE" />
       <ref role="1Q9bmw" node="2ne$wxsleja" resolve="goRed" />
+    </node>
+    <node concept="GpA0v" id="2ne$wxspjp$" role="GpEEL">
+      <ref role="1QcQem" node="2ne$wxslmJ3" resolve="ORANGE" />
+      <ref role="1QcQej" node="k2QQ_FCRBG" resolve="RED" />
+      <ref role="1Q9bmw" node="2ne$wxslfLW" resolve="timerEnd" />
     </node>
     <node concept="1Q9ePo" id="2ne$wxsli6q" role="1Q9djR">
       <property role="TrG5h" value="green" />
@@ -284,14 +286,20 @@
     </node>
     <node concept="11E1pn" id="k2QQ_FCRBG" role="11E6R5">
       <property role="TrG5h" value="RED" />
+      <property role="3g51JJ" value="bbbbbb" />
+      <property role="3g51JD" value="FF7777" />
       <ref role="1Q9bTu" node="2ne$wxsljE$" resolve="red" />
     </node>
     <node concept="11E1pn" id="2ne$wxslmJ3" role="11E6R5">
       <property role="TrG5h" value="ORANGE" />
+      <property role="3g51JJ" value="bbbbbb" />
+      <property role="3g51JD" value="FFFF77" />
       <ref role="1Q9bTu" node="2ne$wxslkKg" resolve="orange" />
     </node>
     <node concept="11E1pn" id="2ne$wxsln2u" role="11E6R5">
       <property role="TrG5h" value="GREEN" />
+      <property role="3g51JJ" value="bbbbbb" />
+      <property role="3g51JD" value="77FF77" />
       <ref role="1Q9bTu" node="2ne$wxsli6q" resolve="green" />
     </node>
   </node>

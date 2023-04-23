@@ -38,6 +38,10 @@
       <concept id="949808489845274322" name="DclareMPS.structure.QuotedOperation" flags="ng" index="4NHco">
         <reference id="949808489845274334" name="quoted" index="4NHck" />
       </concept>
+      <concept id="3471323624161541746" name="DclareMPS.structure.NodeBuilderInitAttribute" flags="ng" index="2eJm03">
+        <reference id="3471323624161544047" name="attribute" index="2eJD$u" />
+        <child id="8727447819807355233" name="initValue" index="IguVG" />
+      </concept>
       <concept id="2670187688574317603" name="DclareMPS.structure.AnythingLiteral" flags="ng" index="g6pQH" />
       <concept id="4122011871452503133" name="DclareMPS.structure.Method" flags="ig" index="kUGYC">
         <property id="6750683335363385218" name="native" index="1ePe$S" />
@@ -3058,13 +3062,13 @@
             <node concept="1pGfFk" id="4YuFE6YtHnx" role="2ShVmc">
               <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
               <node concept="3cmrfG" id="4YuFE6YtHAW" role="37wK5m">
-                <property role="3cmrfH" value="240" />
+                <property role="3cmrfH" value="248" />
               </node>
               <node concept="3cmrfG" id="4YuFE6YtHPq" role="37wK5m">
-                <property role="3cmrfH" value="240" />
+                <property role="3cmrfH" value="248" />
               </node>
               <node concept="3cmrfG" id="4YuFE6YtItq" role="37wK5m">
-                <property role="3cmrfH" value="240" />
+                <property role="3cmrfH" value="248" />
               </node>
             </node>
           </node>
@@ -4495,6 +4499,9 @@
     <node concept="2RaPxm" id="4B2QTM6p26v" role="2RaPxw">
       <ref role="2RaPxn" node="5lbwvqWMSz0" resolve="base" />
     </node>
+    <node concept="2RaPxm" id="2ne$wxspuFY" role="2RaPxw">
+      <ref role="2RaPxn" node="1J7fUUyDYbC" resolve="diagram" />
+    </node>
     <node concept="2RaPxm" id="47vuLFnJpdC" role="Y9HtC">
       <ref role="2RaPxn" node="4B2QTM6p26x" resolve="fromDiagram" />
     </node>
@@ -4504,6 +4511,9 @@
     <property role="3GE5qa" value="fromdiagram" />
     <node concept="2RaPxm" id="47vuLFnJpd$" role="2RaPxw">
       <ref role="2RaPxn" node="5lbwvqWMSz0" resolve="base" />
+    </node>
+    <node concept="2RaPxm" id="2ne$wxspuG1" role="2RaPxw">
+      <ref role="2RaPxn" node="1J7fUUyDYbC" resolve="diagram" />
     </node>
     <node concept="2RaPxm" id="47vuLFnJpdA" role="Y9HtC">
       <ref role="2RaPxn" node="4B2QTM6p1wu" resolve="toDiagram" />
@@ -4938,6 +4948,15 @@
                 <node concept="32jkxy" id="47vuLFnOqDy" role="2OqNvi">
                   <ref role="3cqZAo" node="47vuLFnNHeB" resolve="diagramOutput" />
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2eJm03" id="2ne$wxsq1HE" role="2pJxcM">
+            <ref role="2eJD$u" node="4EauV0WK6Uk" resolve="active" />
+            <node concept="2OqwBi" id="2ne$wxsq2Y9" role="IguVG">
+              <node concept="2Wb9Zs" id="2ne$wxsq2lT" role="2Oq$k0" />
+              <node concept="2qgKlT" id="2ne$wxsq3FZ" role="2OqNvi">
+                <ref role="37wK5l" to="r3ev:v9KtuBq4av" resolve="isActive" />
               </node>
             </node>
           </node>
