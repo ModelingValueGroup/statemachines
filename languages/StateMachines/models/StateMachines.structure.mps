@@ -385,28 +385,36 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="diagram" />
     <ref role="1TJDcQ" to="53d4:31sbKqyPLDd" resolve="Diagram" />
+    <node concept="1TJgyj" id="4EauV0WFDsN" role="1TKVEi">
+      <property role="IQ2ns" value="5371241502455273267" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inputs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4EauV0WFDr$" resolve="DiagramInput" />
+    </node>
+    <node concept="1TJgyj" id="4EauV0WFEX7" role="1TKVEi">
+      <property role="IQ2ns" value="5371241502455279431" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="outputs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4EauV0WFDrC" resolve="DiagramOutput" />
+    </node>
     <node concept="1TJgyj" id="1De8n5rT$MO" role="1TKVEi">
       <property role="IQ2ns" value="1895489263926398132" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="statesInDiagram" />
+      <property role="20kJfa" value="states" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1De8n5rTzsA" resolve="StateInDiagram" />
+      <ref role="20lvS9" node="1De8n5rTzsA" resolve="DiagramState" />
     </node>
     <node concept="1TJgyj" id="Vg5FsyHFK6" role="1TKVEi">
       <property role="IQ2ns" value="1067378087504034822" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="transitionsInDiagram" />
+      <property role="20kJfa" value="transitions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="Vg5FsyHBqC" resolve="TransitionInDiagram" />
+      <ref role="20lvS9" node="Vg5FsyHBqC" resolve="DiagramTransition" />
     </node>
     <node concept="PrWs8" id="1J7fUUyEqLi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="1J7fUUyF1s0" role="1TKVEi">
-      <property role="IQ2ns" value="2001638578675521280" />
-      <property role="20kJfa" value="stateMachine" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1b89R_Kwuc6" resolve="StateMachine" />
     </node>
     <node concept="1irR5M" id="5x0Fo$UUtL$" role="rwd14">
       <property role="2$rrk2" value="1" />
@@ -426,14 +434,8 @@
   <node concept="1TIwiD" id="1De8n5rTzsA">
     <property role="EcuMT" value="1895489263926392614" />
     <property role="3GE5qa" value="diagram" />
-    <property role="TrG5h" value="StateInDiagram" />
+    <property role="TrG5h" value="DiagramState" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1De8n5rTzsB" role="1TKVEi">
-      <property role="IQ2ns" value="1895489263926392615" />
-      <property role="20kJfa" value="state" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1b89R_KwaUf" resolve="State" />
-    </node>
     <node concept="1TJgyi" id="6SQjciY8_sF" role="1TKVEl">
       <property role="IQ2nx" value="7941619400801670955" />
       <property role="TrG5h" value="offColor" />
@@ -444,17 +446,38 @@
       <property role="TrG5h" value="onColor" />
       <ref role="AX2Wp" node="6SQjciY8_sK" resolve="RGBColor" />
     </node>
+    <node concept="PrWs8" id="5aoCYyM_WFe" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="4EauV0WFGnI" role="1TKVEi">
+      <property role="IQ2ns" value="5371241502455285230" />
+      <property role="20kJfa" value="output" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4EauV0WFDrC" resolve="DiagramOutput" />
+    </node>
   </node>
   <node concept="1TIwiD" id="Vg5FsyHBqC">
     <property role="EcuMT" value="1067378087504017064" />
     <property role="3GE5qa" value="diagram" />
-    <property role="TrG5h" value="TransitionInDiagram" />
+    <property role="TrG5h" value="DiagramTransition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="Vg5FsyHBqD" role="1TKVEi">
-      <property role="IQ2ns" value="1067378087504017065" />
-      <property role="20kJfa" value="transition" />
+    <node concept="1TJgyj" id="4EauV0WIhwA" role="1TKVEi">
+      <property role="IQ2ns" value="5371241502455961638" />
+      <property role="20kJfa" value="from" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1b89R_Kwucb" resolve="Transition" />
+      <ref role="20lvS9" node="1De8n5rTzsA" resolve="DiagramState" />
+    </node>
+    <node concept="1TJgyj" id="4EauV0WFGSg" role="1TKVEi">
+      <property role="IQ2ns" value="5371241502455287312" />
+      <property role="20kJfa" value="input" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4EauV0WFDr$" resolve="DiagramInput" />
+    </node>
+    <node concept="1TJgyj" id="4EauV0WIhwz" role="1TKVEi">
+      <property role="IQ2ns" value="5371241502455961635" />
+      <property role="20kJfa" value="to" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1De8n5rTzsA" resolve="DiagramState" />
     </node>
   </node>
   <node concept="Az7Fb" id="6SQjciY8_sK">
@@ -462,6 +485,24 @@
     <property role="3GE5qa" value="diagram" />
     <property role="TrG5h" value="RGBColor" />
     <property role="FLfZY" value="[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]" />
+  </node>
+  <node concept="1TIwiD" id="4EauV0WFDr$">
+    <property role="EcuMT" value="5371241502455273188" />
+    <property role="3GE5qa" value="diagram" />
+    <property role="TrG5h" value="DiagramInput" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="4EauV0WFDr_" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4EauV0WFDrC">
+    <property role="EcuMT" value="5371241502455273192" />
+    <property role="3GE5qa" value="diagram" />
+    <property role="TrG5h" value="DiagramOutput" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="4EauV0WFDrD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
