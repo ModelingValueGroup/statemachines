@@ -11,6 +11,7 @@
       <concept id="3484711917226236399" name="StateMachines.structure.StateMachineDiagram" flags="ng" index="2iyNrD">
         <child id="1067378087504034822" name="transitions" index="GpEEL" />
         <child id="1895489263926398132" name="states" index="11E6R5" />
+        <child id="5918584727077164860" name="dummyInput" index="3knTTf" />
         <child id="5371241502455279431" name="outputs" index="1Q9djR" />
         <child id="5371241502455273267" name="inputs" index="1Q9eM3" />
       </concept>
@@ -301,6 +302,9 @@
       <property role="3g51JJ" value="bbbbbb" />
       <property role="3g51JD" value="77FF77" />
       <ref role="1Q9bTu" node="2ne$wxsli6q" resolve="green" />
+    </node>
+    <node concept="1Q9ePk" id="58z2ne6CaT3" role="3knTTf">
+      <property role="TrG5h" value="&lt;not set&gt;" />
     </node>
   </node>
 </model>
