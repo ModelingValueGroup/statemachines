@@ -413,6 +413,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="Vg5FsyHBqC" resolve="DiagramTransition" />
     </node>
+    <node concept="1TJgyj" id="58z2ne6v9sW" role="1TKVEi">
+      <property role="IQ2ns" value="5918584727077164860" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dummyInput" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4EauV0WFDr$" resolve="DiagramInput" />
+    </node>
     <node concept="PrWs8" id="1J7fUUyEqLi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
