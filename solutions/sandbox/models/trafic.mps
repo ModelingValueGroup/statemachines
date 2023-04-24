@@ -98,15 +98,15 @@
     <ref role="2wiCVd" node="2ne$wxslfM1" resolve="timerEnd" />
     <ref role="2wn6mT" node="k2QQ_F_qWH" resolve="RED" />
     <ref role="2wn6lj" node="2ne$wxsljEC" resolve="red" />
-    <node concept="1yishM" id="2ne$wxspgXC" role="3CNqeR">
-      <ref role="1yishR" node="2ne$wxsln2y" resolve="GREEN" />
-      <ref role="1yishP" node="k2QQ_F_qWH" resolve="RED" />
-      <ref role="3Dyx$3" node="2ne$wxslcq_" resolve="goGreen" />
-    </node>
     <node concept="1yishM" id="2ne$wxspgdW" role="3CNqeR">
       <ref role="1yishR" node="2ne$wxslmJ7" resolve="ORANGE" />
       <ref role="1yishP" node="2ne$wxsln2y" resolve="GREEN" />
       <ref role="3Dyx$3" node="2ne$wxsleje" resolve="goRed" />
+    </node>
+    <node concept="1yishM" id="2ne$wxspgXC" role="3CNqeR">
+      <ref role="1yishR" node="2ne$wxsln2y" resolve="GREEN" />
+      <ref role="1yishP" node="k2QQ_F_qWH" resolve="RED" />
+      <ref role="3Dyx$3" node="2ne$wxslcq_" resolve="goGreen" />
     </node>
     <node concept="1yishM" id="2ne$wxspjpC" role="3CNqeR">
       <ref role="1yishR" node="k2QQ_F_qWH" resolve="RED" />
@@ -219,15 +219,15 @@
   </node>
   <node concept="2iyNrD" id="k2QQ_FCRB6">
     <property role="TrG5h" value="TrafficLigth" />
-    <node concept="GpA0v" id="2ne$wxspgX$" role="GpEEL">
-      <ref role="1QcQem" node="k2QQ_FCRBG" resolve="RED" />
-      <ref role="1QcQej" node="2ne$wxsln2u" resolve="GREEN" />
-      <ref role="1Q9bmw" node="2ne$wxslcqx" resolve="goGreen" />
-    </node>
     <node concept="GpA0v" id="2ne$wxspgdL" role="GpEEL">
       <ref role="1QcQem" node="2ne$wxsln2u" resolve="GREEN" />
       <ref role="1QcQej" node="2ne$wxslmJ3" resolve="ORANGE" />
       <ref role="1Q9bmw" node="2ne$wxsleja" resolve="goRed" />
+    </node>
+    <node concept="GpA0v" id="2ne$wxspgX$" role="GpEEL">
+      <ref role="1QcQem" node="k2QQ_FCRBG" resolve="RED" />
+      <ref role="1QcQej" node="2ne$wxsln2u" resolve="GREEN" />
+      <ref role="1Q9bmw" node="2ne$wxslcqx" resolve="goGreen" />
     </node>
     <node concept="GpA0v" id="2ne$wxspjp$" role="GpEEL">
       <ref role="1QcQem" node="2ne$wxslmJ3" resolve="ORANGE" />
