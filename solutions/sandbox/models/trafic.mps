@@ -8,30 +8,18 @@
   <imports />
   <registry>
     <language id="c840535e-4213-4a05-832f-5cc528f47f6e" name="StateMachines">
-      <concept id="3484711917226236399" name="StateMachines.structure.StateMachineDiagram" flags="ng" index="2iyNrD">
-        <child id="1067378087504034822" name="transitions" index="GpEEL" />
-        <child id="1895489263926398132" name="states" index="11E6R5" />
-        <child id="5918584727077164860" name="dummyInput" index="3knTTf" />
-        <child id="5371241502455279431" name="outputs" index="1Q9djR" />
-        <child id="5371241502455273267" name="inputs" index="1Q9eM3" />
-      </concept>
-      <concept id="1067378087504017064" name="StateMachines.structure.DiagramTransition" flags="ng" index="GpA0v">
-        <reference id="5371241502455287312" name="input" index="1Q9bmw" />
-        <reference id="5371241502455961635" name="to" index="1QcQej" />
-        <reference id="5371241502455961638" name="from" index="1QcQem" />
-      </concept>
       <concept id="6930325218362948548" name="StateMachines.structure.TableInput" flags="ng" index="MmgRl" />
       <concept id="6930325218362948551" name="StateMachines.structure.TableOutput" flags="ng" index="MmgRm" />
+      <concept id="4723778789202580196" name="StateMachines.structure.StateMachineDiagram" flags="ng" index="2QvY$z">
+        <reference id="4723778789202580199" name="stateMachine" index="2QvY$w" />
+      </concept>
       <concept id="6864088223273688403" name="StateMachines.structure.TableInputReference" flags="ng" index="10qrUc">
         <reference id="6864088223273688404" name="input" index="10qrUb" />
       </concept>
-      <concept id="1895489263926392614" name="StateMachines.structure.DiagramState" flags="ng" index="11E1pn">
-        <property id="7941619400801670957" name="onColor" index="3g51JD" />
-        <property id="7941619400801670955" name="offColor" index="3g51JJ" />
-        <reference id="5371241502455285230" name="output" index="1Q9bTu" />
-      </concept>
       <concept id="2400230518048822444" name="StateMachines.structure.Input" flags="ng" index="1e5k1s" />
       <concept id="1353375090556841615" name="StateMachines.structure.State" flags="ng" index="1yi8BQ">
+        <property id="7941619400801670957" name="onColor" index="3g51JD" />
+        <property id="7941619400801670955" name="offColor" index="3g51JJ" />
         <reference id="6146149013205916067" name="output" index="3Dyxxl" />
       </concept>
       <concept id="1353375090556920587" name="StateMachines.structure.Transition" flags="ng" index="1yishM">
@@ -43,6 +31,7 @@
         <reference id="561192760556867354" name="currentInput" index="2wiCVd" />
         <reference id="561192760558068868" name="currentOutput" index="2wn6lj" />
         <reference id="561192760558068846" name="currentState" index="2wn6mT" />
+        <child id="4723778789202580201" name="dummyInput" index="2QvY$I" />
         <child id="6146149013218252502" name="inputs" index="3Cd_sw" />
         <child id="6146149013218252505" name="states" index="3Cd_sJ" />
         <child id="6146149013218796097" name="transitions" index="3CNqeR" />
@@ -66,8 +55,6 @@
         <child id="6146149013206739137" name="cells" index="3Dxq$R" />
       </concept>
       <concept id="6146149013205889271" name="StateMachines.structure.Output" flags="ng" index="3DyF41" />
-      <concept id="5371241502455273188" name="StateMachines.structure.DiagramInput" flags="ng" index="1Q9ePk" />
-      <concept id="5371241502455273192" name="StateMachines.structure.DiagramOutput" flags="ng" index="1Q9ePo" />
     </language>
     <language id="ce36526d-d793-4b8b-88e9-d1815f616441" name="DclareGui">
       <concept id="3484711917226236494" name="DclareGui.structure.NodeLayout" flags="ng" index="2iyNl8">
@@ -96,9 +83,9 @@
   </registry>
   <node concept="1yishZ" id="k2QQ_F_qVL">
     <property role="TrG5h" value="TrafficLigth" />
-    <ref role="2wiCVd" node="2ne$wxslcq_" resolve="goGreen" />
-    <ref role="2wn6mT" node="2ne$wxsln2y" resolve="GREEN" />
-    <ref role="2wn6lj" node="2ne$wxsli6t" resolve="green" />
+    <ref role="2wiCVd" node="2ne$wxslfM1" resolve="timerEnd" />
+    <ref role="2wn6lj" node="2ne$wxsljEC" resolve="red" />
+    <ref role="2wn6mT" node="k2QQ_F_qWH" resolve="RED" />
     <node concept="1yishM" id="2ne$wxspgdW" role="3CNqeR">
       <ref role="1yishR" node="2ne$wxslmJ7" resolve="ORANGE" />
       <ref role="1yishP" node="2ne$wxsln2y" resolve="GREEN" />
@@ -134,103 +121,22 @@
     </node>
     <node concept="1yi8BQ" id="k2QQ_F_qWH" role="3Cd_sJ">
       <property role="TrG5h" value="RED" />
+      <property role="3g51JJ" value="cccccc" />
+      <property role="3g51JD" value="ee6666" />
       <ref role="3Dyxxl" node="2ne$wxsljEC" resolve="red" />
     </node>
     <node concept="1yi8BQ" id="2ne$wxslmJ7" role="3Cd_sJ">
       <property role="TrG5h" value="ORANGE" />
+      <property role="3g51JJ" value="cccccc" />
       <ref role="3Dyxxl" node="2ne$wxslkKl" resolve="orange" />
     </node>
     <node concept="1yi8BQ" id="2ne$wxsln2y" role="3Cd_sJ">
       <property role="TrG5h" value="GREEN" />
+      <property role="3g51JJ" value="cccccc" />
+      <property role="3g51JD" value="77ff77" />
       <ref role="3Dyxxl" node="2ne$wxsli6t" resolve="green" />
     </node>
-  </node>
-  <node concept="2iyNrD" id="k2QQ_FCRB6">
-    <property role="TrG5h" value="TrafficLigth" />
-    <node concept="GpA0v" id="2ne$wxspgdL" role="GpEEL">
-      <ref role="1QcQem" node="2ne$wxsln2u" resolve="GREEN" />
-      <ref role="1QcQej" node="2ne$wxslmJ3" resolve="ORANGE" />
-      <ref role="1Q9bmw" node="2ne$wxsleja" resolve="goRed" />
-    </node>
-    <node concept="GpA0v" id="2ne$wxspgX$" role="GpEEL">
-      <ref role="1QcQem" node="k2QQ_FCRBG" resolve="RED" />
-      <ref role="1QcQej" node="2ne$wxsln2u" resolve="GREEN" />
-      <ref role="1Q9bmw" node="2ne$wxslcqx" resolve="goGreen" />
-    </node>
-    <node concept="GpA0v" id="2ne$wxspjp$" role="GpEEL">
-      <ref role="1QcQem" node="2ne$wxslmJ3" resolve="ORANGE" />
-      <ref role="1QcQej" node="k2QQ_FCRBG" resolve="RED" />
-      <ref role="1Q9bmw" node="2ne$wxslfLW" resolve="timerEnd" />
-    </node>
-    <node concept="1Q9ePo" id="2ne$wxsli6q" role="1Q9djR">
-      <property role="TrG5h" value="green" />
-    </node>
-    <node concept="1Q9ePo" id="2ne$wxsljE$" role="1Q9djR">
-      <property role="TrG5h" value="red" />
-    </node>
-    <node concept="1Q9ePo" id="2ne$wxslkKg" role="1Q9djR">
-      <property role="TrG5h" value="orange" />
-    </node>
-    <node concept="1Q9ePk" id="2ne$wxslcqx" role="1Q9eM3">
-      <property role="TrG5h" value="goGreen" />
-    </node>
-    <node concept="1Q9ePk" id="2ne$wxsleja" role="1Q9eM3">
-      <property role="TrG5h" value="goRed" />
-    </node>
-    <node concept="1Q9ePk" id="2ne$wxslfLW" role="1Q9eM3">
-      <property role="TrG5h" value="timerEnd" />
-    </node>
-    <node concept="2iyNl8" id="k2QQ_FCRBH" role="2iyNln">
-      <property role="2iyNlR" value="120" />
-      <property role="2iyNlD" value="140" />
-      <ref role="2iyNl9" node="k2QQ_FCRBG" resolve="RED" />
-      <node concept="2iyNll" id="2ne$wxspgXF" role="2iyNmk">
-        <ref role="2iyNli" node="2ne$wxslcqx" resolve="goGreen" />
-        <node concept="2iyNlg" id="1XnM_rg49i9" role="2iyKN2">
-          <property role="2iyKNf" value="120" />
-          <property role="2iyKN1" value="260" />
-        </node>
-        <node concept="2iyNlg" id="1XnM_rg49ie" role="2iyKN2">
-          <property role="2iyKNf" value="440" />
-          <property role="2iyKN1" value="260" />
-        </node>
-      </node>
-    </node>
-    <node concept="2iyNl8" id="2ne$wxslmJ4" role="2iyNln">
-      <property role="2iyNlD" value="140" />
-      <property role="2iyNlR" value="280" />
-      <ref role="2iyNl9" node="2ne$wxslmJ3" resolve="ORANGE" />
-      <node concept="2iyNll" id="2ne$wxspjpF" role="2iyNmk">
-        <ref role="2iyNli" node="2ne$wxslfLW" resolve="timerEnd" />
-      </node>
-    </node>
-    <node concept="2iyNl8" id="2ne$wxsln2v" role="2iyNln">
-      <property role="2iyNlD" value="140" />
-      <property role="2iyNlR" value="440" />
-      <ref role="2iyNl9" node="2ne$wxsln2u" resolve="GREEN" />
-      <node concept="2iyNll" id="2ne$wxspgdZ" role="2iyNmk">
-        <ref role="2iyNli" node="2ne$wxsleja" resolve="goRed" />
-      </node>
-    </node>
-    <node concept="11E1pn" id="k2QQ_FCRBG" role="11E6R5">
-      <property role="TrG5h" value="RED" />
-      <property role="3g51JJ" value="bbbbbb" />
-      <property role="3g51JD" value="FF7777" />
-      <ref role="1Q9bTu" node="2ne$wxsljE$" resolve="red" />
-    </node>
-    <node concept="11E1pn" id="2ne$wxslmJ3" role="11E6R5">
-      <property role="TrG5h" value="ORANGE" />
-      <property role="3g51JJ" value="bbbbbb" />
-      <property role="3g51JD" value="FFFF77" />
-      <ref role="1Q9bTu" node="2ne$wxslkKg" resolve="orange" />
-    </node>
-    <node concept="11E1pn" id="2ne$wxsln2u" role="11E6R5">
-      <property role="TrG5h" value="GREEN" />
-      <property role="3g51JJ" value="bbbbbb" />
-      <property role="3g51JD" value="77FF77" />
-      <ref role="1Q9bTu" node="2ne$wxsli6q" resolve="green" />
-    </node>
-    <node concept="1Q9ePk" id="58z2ne6CaT3" role="3knTTf">
+    <node concept="1e5k1s" id="7uDgbPPQeET" role="2QvY$I">
       <property role="TrG5h" value="&lt;not set&gt;" />
     </node>
   </node>
@@ -305,6 +211,42 @@
         </node>
       </node>
       <node concept="3DxqwS" id="2ne$wxsln2E" role="3Dxq$R" />
+    </node>
+  </node>
+  <node concept="2QvY$z" id="7uDgbPPQfaQ">
+    <property role="TrG5h" value="TrafficLigthDiagram" />
+    <ref role="2QvY$w" node="k2QQ_F_qVL" resolve="TrafficLigth" />
+    <node concept="2iyNl8" id="7uDgbPPQfaR" role="2iyNln">
+      <property role="2iyNlD" value="180" />
+      <property role="2iyNlR" value="80" />
+      <ref role="2iyNl9" node="k2QQ_F_qWH" resolve="RED" />
+      <node concept="2iyNll" id="7uDgbPPQfaV" role="2iyNmk">
+        <ref role="2iyNli" node="2ne$wxslcq_" resolve="goGreen" />
+        <node concept="2iyNlg" id="7uDgbPPQfb6" role="2iyKN2">
+          <property role="2iyKN1" value="300" />
+          <property role="2iyKNf" value="80" />
+        </node>
+        <node concept="2iyNlg" id="7uDgbPPQfb8" role="2iyKN2">
+          <property role="2iyKN1" value="300" />
+          <property role="2iyKNf" value="480" />
+        </node>
+      </node>
+    </node>
+    <node concept="2iyNl8" id="7uDgbPPQfaS" role="2iyNln">
+      <property role="2iyNlD" value="180" />
+      <property role="2iyNlR" value="280" />
+      <ref role="2iyNl9" node="2ne$wxslmJ7" resolve="ORANGE" />
+      <node concept="2iyNll" id="7uDgbPPQfaW" role="2iyNmk">
+        <ref role="2iyNli" node="2ne$wxslfM1" resolve="timerEnd" />
+      </node>
+    </node>
+    <node concept="2iyNl8" id="7uDgbPPQfaT" role="2iyNln">
+      <property role="2iyNlD" value="180" />
+      <property role="2iyNlR" value="480" />
+      <ref role="2iyNl9" node="2ne$wxsln2y" resolve="GREEN" />
+      <node concept="2iyNll" id="7uDgbPPQfaU" role="2iyNmk">
+        <ref role="2iyNli" node="2ne$wxsleje" resolve="goRed" />
+      </node>
     </node>
   </node>
 </model>
