@@ -407,12 +407,15 @@
     <property role="3GE5qa" value="diagram" />
     <property role="TrG5h" value="StateMachineDiagram" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="53d4:31sbKqyPLDd" resolve="Diagram" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="46eeWvRWtbB" role="1TKVEi">
       <property role="IQ2ns" value="4723778789202580199" />
       <property role="20kJfa" value="stateMachine" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1b89R_Kwuc6" resolve="StateMachine" />
+    </node>
+    <node concept="PrWs8" id="3psr82$ihFU" role="PzmwI">
+      <ref role="PrY4T" to="53d4:3psr82$eZ54" resolve="Diagram" />
     </node>
     <node concept="PrWs8" id="46eeWvRWtb_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

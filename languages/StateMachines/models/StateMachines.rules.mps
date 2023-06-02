@@ -3095,30 +3095,6 @@
         </node>
       </node>
     </node>
-    <node concept="3tBE6w" id="72ibaoqOKLz" role="1FPzNG">
-      <node concept="3clFbF" id="72ibaoqOLvj" role="30jUnX">
-        <node concept="E34o$" id="72ibaoqOLWG" role="3clFbG">
-          <node concept="3KEV6E" id="72ibaoqOMvF" role="37vLTx">
-            <ref role="2UJ2yc" to="q3xn:4NMtPTvGW7r" resolve="DPoint" />
-            <node concept="2Pygp_" id="72ibaoqOMvG" role="2Pygpa">
-              <ref role="2Pygpw" to="q3xn:4NMtPTvGW7s" resolve="x" />
-              <node concept="3b6qkQ" id="72ibaoqON0l" role="2PygpA">
-                <property role="$nhwW" value="0.0d" />
-              </node>
-            </node>
-            <node concept="2Pygp_" id="72ibaoqOMvH" role="2Pygpa">
-              <ref role="2Pygpw" to="q3xn:4NMtPTvGXWc" resolve="y" />
-              <node concept="3b6qkQ" id="72ibaoqONEW" role="2PygpA">
-                <property role="$nhwW" value="0.0d" />
-              </node>
-            </node>
-          </node>
-          <node concept="1SfVH9" id="72ibaoqOLvi" role="37vLTJ">
-            <ref role="3cqZAo" to="q3xn:4NMtPTvGUBA" resolve="location" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="32q3_s" id="1kkS5ElJfMO" role="1FPzNG">
       <property role="TrG5h" value="stateMachine" />
       <property role="KodbT" value="true" />
@@ -4663,15 +4639,21 @@
     <node concept="3tBE6w" id="1J7fUUyEqsH" role="1FPzNG">
       <node concept="3clFbF" id="1J7fUUyEPjI" role="30jUnX">
         <node concept="E34o$" id="1J7fUUyEPUc" role="3clFbG">
-          <node concept="3KEV6E" id="1J7fUUyEPZ_" role="37vLTx">
-            <ref role="2UJ2yc" node="1J7fUUyEoZi" resolve="StateMachineCanvas" />
-            <node concept="2Pygp_" id="1J7fUUyEPZA" role="2Pygpa">
-              <ref role="2Pygpw" to="q3xn:3OZjsowr3$L" resolve="layout" />
-              <node concept="2Wb9Zs" id="1J7fUUyEQPs" role="2PygpA" />
-            </node>
-          </node>
           <node concept="1SfVH9" id="1J7fUUyEPjH" role="37vLTJ">
             <ref role="3cqZAo" to="q3xn:4Oa6zNZz9Lj" resolve="canvas" />
+          </node>
+          <node concept="3K4zz7" id="4hqBpYyTSiI" role="37vLTx">
+            <node concept="10Nm6u" id="4hqBpYyTSCE" role="3K4GZi" />
+            <node concept="3KEV6E" id="1J7fUUyEPZ_" role="3K4E3e">
+              <ref role="2UJ2yc" node="1J7fUUyEoZi" resolve="StateMachineCanvas" />
+              <node concept="2Pygp_" id="1J7fUUyEPZA" role="2Pygpa">
+                <ref role="2Pygpw" to="q3xn:3OZjsowr3$L" resolve="layout" />
+                <node concept="2Wb9Zs" id="1J7fUUyEQPs" role="2PygpA" />
+              </node>
+            </node>
+            <node concept="1SfVH9" id="AO_ohtgKJS" role="3K4Cdx">
+              <ref role="3cqZAo" to="q3xn:AO_ohtcfNz" resolve="viewed" />
+            </node>
           </node>
         </node>
       </node>

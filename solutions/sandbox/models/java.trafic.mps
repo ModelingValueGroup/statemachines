@@ -245,7 +245,7 @@
         <ref role="37wK5l" node="k2QQ_F_qWb" resolve="State" />
         <node concept="Rm8GO" id="2ne$wxslmJ6" role="37wK5m">
           <ref role="1Px2BO" node="k2QQ_F_qVS" resolve="Output" />
-          <ref role="Rm8GQ" node="2ne$wxslkKk" resolve="orange" />
+          <ref role="Rm8GQ" node="2ne$wxsli6s" resolve="green" />
         </node>
       </node>
       <node concept="QsSxf" id="2ne$wxsln2w" role="Qtgdg">
@@ -301,7 +301,7 @@
                 <node concept="Xjq3P" id="2ne$wxspge1" role="2Oq$k0" />
               </node>
               <node concept="Rm8GO" id="2ne$wxspgdY" role="3uHU7w">
-                <ref role="Rm8GQ" node="2ne$wxsln2w" resolve="GREEN" />
+                <ref role="Rm8GQ" node="2ne$wxsln2w" />
                 <ref role="1Px2BO" node="k2QQ_F_qVU" resolve="State" />
               </node>
             </node>
@@ -310,8 +310,8 @@
                 <ref role="3cqZAo" node="k2QQ_F_qW4" resolve="input" />
               </node>
               <node concept="Rm8GO" id="2ne$wxspgdS" role="3uHU7w">
-                <ref role="Rm8GQ" node="2ne$wxslejd" resolve="goRed" />
                 <ref role="1Px2BO" node="k2QQ_F_qVQ" resolve="Input" />
+                <ref role="Rm8GQ" node="2ne$wxslejd" resolve="goRed" />
               </node>
             </node>
           </node>
@@ -319,7 +319,7 @@
             <node concept="3clFbF" id="2ne$wxspgdM" role="3cqZAp">
               <node concept="37vLTI" id="2ne$wxspgdO" role="3clFbG">
                 <node concept="Rm8GO" id="2ne$wxspgdP" role="37vLTx">
-                  <ref role="Rm8GQ" node="2ne$wxslmJ5" resolve="ORANGE" />
+                  <ref role="Rm8GQ" node="2ne$wxslmJ5" />
                   <ref role="1Px2BO" node="k2QQ_F_qVU" resolve="State" />
                 </node>
                 <node concept="2OqwBi" id="2ne$wxspgdQ" role="37vLTJ">
@@ -336,7 +336,7 @@
                   <ref role="37wK5l" node="k2QQ_F_qWd" resolve="getOutput" />
                 </node>
                 <node concept="Rm8GO" id="2ne$wxspgdV" role="2Oq$k0">
-                  <ref role="Rm8GQ" node="2ne$wxslmJ5" resolve="ORANGE" />
+                  <ref role="Rm8GQ" node="2ne$wxslmJ5" />
                   <ref role="1Px2BO" node="k2QQ_F_qVU" resolve="State" />
                 </node>
               </node>
@@ -355,7 +355,7 @@
                 <node concept="Xjq3P" id="2ne$wxspgXH" role="2Oq$k0" />
               </node>
               <node concept="Rm8GO" id="2ne$wxspgXE" role="3uHU7w">
-                <ref role="Rm8GQ" node="k2QQ_F_qW8" resolve="RED" />
+                <ref role="Rm8GQ" node="k2QQ_F_qW8" />
                 <ref role="1Px2BO" node="k2QQ_F_qVU" resolve="State" />
               </node>
             </node>
@@ -373,7 +373,7 @@
             <node concept="3clFbF" id="2ne$wxspgXt" role="3cqZAp">
               <node concept="37vLTI" id="2ne$wxspgXv" role="3clFbG">
                 <node concept="Rm8GO" id="2ne$wxspgXw" role="37vLTx">
-                  <ref role="Rm8GQ" node="2ne$wxsln2w" resolve="GREEN" />
+                  <ref role="Rm8GQ" node="2ne$wxsln2w" />
                   <ref role="1Px2BO" node="k2QQ_F_qVU" resolve="State" />
                 </node>
                 <node concept="2OqwBi" id="2ne$wxspgXx" role="37vLTJ">
@@ -390,7 +390,7 @@
                   <ref role="37wK5l" node="k2QQ_F_qWd" resolve="getOutput" />
                 </node>
                 <node concept="Rm8GO" id="2ne$wxspgXB" role="2Oq$k0">
-                  <ref role="Rm8GQ" node="2ne$wxsln2w" resolve="GREEN" />
+                  <ref role="Rm8GQ" node="2ne$wxsln2w" />
                   <ref role="1Px2BO" node="k2QQ_F_qVU" resolve="State" />
                 </node>
               </node>
