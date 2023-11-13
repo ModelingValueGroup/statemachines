@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="StateMachines" uuid="c840535e-4213-4a05-832f-5cc528f47f6e" languageVersion="3" moduleVersion="1">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
@@ -17,7 +17,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
-    <dependency reexport="false">ce36526d-d793-4b8b-88e9-d1815f616441(DclareGui)</dependency>
+    <dependency reexport="true">ce36526d-d793-4b8b-88e9-d1815f616441(DclareGui)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:c32b788d-8e4b-4023-97f5-3e90d04ed77b:DclareMPS" version="5" />

@@ -415,7 +415,7 @@
       <ref role="20lvS9" node="1b89R_Kwuc6" resolve="StateMachine" />
     </node>
     <node concept="PrWs8" id="3psr82$ihFU" role="PzmwI">
-      <ref role="PrY4T" to="53d4:3psr82$eZ54" resolve="Diagram" />
+      <ref role="PrY4T" to="53d4:3psr82$eZ54" resolve="IDiagram" />
     </node>
     <node concept="PrWs8" id="46eeWvRWtb_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
