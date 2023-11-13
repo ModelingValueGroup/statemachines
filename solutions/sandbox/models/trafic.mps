@@ -83,9 +83,9 @@
   </registry>
   <node concept="1yishZ" id="k2QQ_F_qVL">
     <property role="TrG5h" value="TrafficLigth" />
-    <ref role="2wiCVd" node="67eN9Qk6nHy" resolve="goPurple" />
-    <ref role="2wn6mT" node="67eN9Qk6g0q" resolve="PURPLE" />
-    <ref role="2wn6lj" node="67eN9Qk6jNo" resolve="puple" />
+    <ref role="2wiCVd" node="2ne$wxslcq_" resolve="goGreen" />
+    <ref role="2wn6lj" node="2ne$wxsli6t" resolve="green" />
+    <ref role="2wn6mT" node="2ne$wxsln2y" resolve="GREEN" />
     <node concept="1yishM" id="2ne$wxspgdW" role="3CNqeR">
       <ref role="1yishR" node="2ne$wxslmJ7" resolve="ORANGE" />
       <ref role="1yishP" node="2ne$wxsln2y" resolve="GREEN" />

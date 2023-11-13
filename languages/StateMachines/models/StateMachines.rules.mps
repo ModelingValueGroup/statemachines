@@ -123,6 +123,9 @@
       <concept id="1337450275392572322" name="DclareMPS.structure.TypedContextType" flags="ng" index="1F2_xi">
         <child id="1337450275392579546" name="type" index="1F2BgE" />
       </concept>
+      <concept id="7599581349099358534" name="DclareMPS.structure.RuleSetComment" flags="ng" index="1FHQIZ">
+        <property id="7599581349099358541" name="text" index="1FHQIO" />
+      </concept>
       <concept id="7599581349097323169" name="DclareMPS.structure.PlaceholderRuleSetMember" flags="ng" index="1FPxxo" />
       <concept id="4283428457607232705" name="DclareMPS.structure.PreStateExpression" flags="ng" index="3J2VuX">
         <child id="4283428457607327522" name="expression" index="3J2yhu" />
@@ -3294,6 +3297,10 @@
         </node>
       </node>
     </node>
+    <node concept="1FPxxo" id="67eN9Qk9ga6" role="1FPzNG" />
+    <node concept="1FHQIZ" id="67eN9Qk9id_" role="1FPzNG">
+      <property role="1FHQIO" value="Temporal rules for Editing" />
+    </node>
     <node concept="32q3_s" id="2cgTHFPMLWU" role="1FPzNG">
       <property role="KodbT" value="true" />
       <property role="TrG5h" value="from" />
@@ -3633,7 +3640,6 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="2cgTHFPMWGe" role="1FPzNG" />
   </node>
   <node concept="3LmNE2" id="1kkS5ElIOE0">
     <property role="3GE5qa" value="diagram" />
